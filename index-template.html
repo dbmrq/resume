@@ -11,8 +11,8 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Keywords for ATS and search optimization (populated from cv.md frontmatter) -->
-  <div id="keywords" aria-hidden="true" style="position:absolute;left:-9999px;top:-9999px;width:1px;height:1px;overflow:hidden;"></div>
+  <!-- Keywords for ATS and search optimization (injected from keywords.yaml at build time) -->
+  <div id="keywords" aria-hidden="true" style="position:absolute;left:-9999px;top:-9999px;width:1px;height:1px;overflow:hidden;">{{KEYWORDS}}</div>
   <div class="container">
     <header class="header">
       <nav class="header-icons">
@@ -112,17 +112,6 @@
         const lines = contactLines.split('<br>');
         lines.splice(1, 0, obfuscatedContact);
         contactLines = lines.join('<br>');
-
-        // Parse keywords (lines starting with "  - " after "keywords:")
-        const keywordsMatch = frontmatter.match(/keywords:\n((?:\s+(?:#.*\n|\s*-\s*.+\n?))+)/);
-        const keywords = keywordsMatch
-          ? keywordsMatch[1]
-              .split('\n')
-              .filter(l => l.match(/^\s+-\s/))
-              .map(l => l.replace(/^\s+-\s*/, '').trim())
-              .join(', ')
-          : '';
-        document.getElementById('keywords').textContent = keywords;
 
         document.getElementById('content').innerHTML = `
           <div class="hero">

@@ -63,9 +63,13 @@ email_codes="[$email_codes]"
 phone_codes="[$phone_codes]"
 whatsapp_codes="[$whatsapp_codes]"
 
+# Extract keywords from keywords.yaml as comma-separated string
+keywords_string=$(grep -E '^\s*-\s' keywords.yaml | sed 's/^\s*-\s*//' | tr '\n' ',' | sed 's/,$//')
+
 sed -e "s|{{EMAIL_CODES}}|$email_codes|g" \
     -e "s|{{PHONE_CODES}}|$phone_codes|g" \
     -e "s|{{WHATSAPP_CODES}}|$whatsapp_codes|g" \
+    -e "s|{{KEYWORDS}}|$keywords_string|g" \
     index-template.html > index.html
 
 echo "index.html generated with obfuscated contact info"
