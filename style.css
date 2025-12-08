@@ -84,14 +84,22 @@ h2 { font-size: 1.25rem; font-weight: 600; margin: 2rem 0 0.75rem; letter-spacin
 h3 { font-size: 1rem; font-weight: 600; margin: 1.25rem 0 0.5rem; }
 
 .heading-link {
-  display: inline-flex;
-  align-items: center;
+  color: inherit;
+  text-decoration: none;
+}
+
+.heading-link:hover {
+  color: inherit;
+}
+
+.heading-link svg {
+  display: inline;
   margin-left: 0.5rem;
   color: #999;
   vertical-align: middle;
 }
 
-.heading-link:hover {
+.heading-link:hover svg {
   color: var(--accent);
 }
 

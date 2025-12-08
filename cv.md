@@ -141,7 +141,7 @@ I delivered critical features and laid the groundwork for how the mobile organiz
 - **Modernization & Architecture:** I drove the migration of legacy Objective‑C and Java code to Swift and Kotlin, and initiated a move toward a more modular app architecture that the teams are now completing.
 - **Code Quality & Tooling:** I set code standards and introduced tooling such as SwiftLint to enforce them, improving consistency and reducing review friction.
 
-## Leio — Founder & Product Engineer (2015–Present) <a href="https://app.leio.co" target="_blank" rel="noopener" class="heading-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+## <a href="https://app.leio.co" target="_blank" rel="noopener" class="heading-link">Leio — Founder & Product Engineer (2015–Present) <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a>
 
 I own the end-to-end product lifecycle for Leio, a top-rated reading management app with a decade of continuous evolution and thousands of five-star ratings.
 
