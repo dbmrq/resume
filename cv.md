@@ -109,13 +109,6 @@ I am a mobile engineering leader who builds high-performing teams, ships impactf
 - **Engineering Leadership at Scale:** I led the reduction of crash rates from >4% to <0.25% across 640+ enterprise mobile apps used by major US financial institutions.
 - **Crisis Management:** I reduced production incident response time from 3+ days to under one hour by driving improvements in telemetry, observability, and incident playbooks.
 
-# Core Strengths & Skills
-- **Leadership & Org Design:** Multi-team mobile leadership, cross-timezone collaboration (US/Brazil/India), performance management, mentoring, and coaching.
-- **Platform & Delivery:** Mobile platform architecture, CI/CD, release engineering, observability, and incident management.
-- **Product & People:** Customer-driven product strategy, psychological safety, conflict resolution, and change management.
-- **AI-Assisted Development:** AI-assisted development workflows for productivity and quality.
-- **Technical Skills:** Swift 6, SwiftUI, UIKit, Objective-C, Kotlin, Java, Python, C#, REST APIs, Xcode Cloud, GitHub Actions, Azure Pipelines, Jira, Azure DevOps, Splunk.
-
 # Professional Experience
 
 ## Wex Inc. — Software Engineering Manager (2025–Present)
@@ -173,6 +166,13 @@ I taught complex theoretical concepts and supervised the clinical practice of hu
 - BA, Psychology — University of São Paulo (USP)
 - Specialist, Innovative Solutions for Long Distance Education — UNIVESP
 - C2 Proficiency (CPE) — Cambridge English
+
+# Core Strengths & Skills
+- **Leadership & Org Design:** Multi-team mobile leadership, cross-timezone collaboration (US/Brazil/India), performance management, mentoring, and coaching.
+- **Platform & Delivery:** Mobile platform architecture, CI/CD, release engineering, observability, and incident management.
+- **Product & People:** Customer-driven product strategy, psychological safety, conflict resolution, and change management.
+- **AI-Assisted Development:** AI-assisted development workflows for productivity and quality.
+- **Technical Skills:** Swift 6, SwiftUI, UIKit, Objective-C, Kotlin, Java, Python, C#, REST APIs, Xcode Cloud, GitHub Actions, Azure Pipelines, Jira, Azure DevOps, Splunk.
 
 # Languages
 Portuguese (native), English (fluent / C2)
