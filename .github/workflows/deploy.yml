@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-extra fonts-inter jq
+          sudo apt-get install -y --no-install-recommends pandoc texlive-xetex texlive-latex-extra fonts-inter jq
 
       - name: Create contact-private.json from secrets
         env:
