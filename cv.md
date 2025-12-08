@@ -99,10 +99,10 @@ keywords:
 ---
 
 # Profile
-I am a mobile engineering leader who builds high-performing teams, ships impactful products, and systematically improves people and processes. Over the last decade, I have combined end-to-end product ownership as the founder of Leio with large-scale technical leadership at Wex, managing multiple teams in a white-label ecosystem with over 640 mobile apps. My background in psychology and philosophy helps me drive technical excellence, operational discipline, and a culture of psychological safety.
+I am a mobile engineering leader who builds high-performing teams, ships impactful products, and systematically improves people and processes. Over the last decade, I have combined end-to-end product ownership as the founder of Leio with large-scale technical leadership at Wex, managing multiple teams in a white-label ecosystem of over 640 mobile apps. My background in psychology and philosophy helps me drive technical excellence, operational discipline, and a culture of psychological safety.
 
 # Selected Highlights
-- **Global Management:** I manage more than 30 engineers in 4 cross-cultural teams spanning the US, Brazil, and India (including vendor partners).
+- **Global Management:** I've managed over 30 engineers in 4 cross-cultural teams spanning the US, Brazil, and India (including vendor partners).
 - **Product Ownership:** I founded and operate Leio, a top-100 iOS app with ~1,500 monthly active users, thousands of 5-star ratings, and six-figure lifetime revenue over 10 years.
 - **Operational Excellence:** I led a CI/CD transformation that cut release cycles from months to under one hour, enabling prompt resolution of customer-impacting issues.
 - **Engineering Leadership at Scale:** I led the reduction of crash rates from >4% to <0.25% across 640+ enterprise mobile apps used by major US financial institutions.
@@ -146,7 +146,7 @@ I delivered critical features and laid the groundwork for how the mobile organiz
 I own the end-to-end product lifecycle for Leio, a top-rated reading management app with a decade of continuous evolution and thousands of five-star ratings.
 
 ### Achievements
-- **Product Strategy & Execution:** I built and scaled a successful consumer product from zero to top-100 in Brazil, growing to ~1,500 monthly active users with thousands of five-star ratings and low six-figure lifetime revenue over 10 years, while managing ideation, UX, roadmap, and marketing.
+- **Product Strategy & Execution:** I built and scaled a successful consumer product from zero to top-100 in Brazil, growing to ~1,500 monthly active users with thousands of five-star ratings and six-figure lifetime revenue over 10 years, while managing ideation, UX, roadmap, and marketing.
 - **Technical Evolution:** I evolved the codebase from Objective-C/Swift 1 to Swift 6, transitioning to SwiftUI, strict concurrency, and a modular SPM architecture.
 - **Business Operations:** I managed all aspects of the business including App Store optimization, legal compliance, and customer support.
 
