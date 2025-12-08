@@ -21,12 +21,18 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Create contact-private.json from secrets
+        env:
+          CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
+          CONTACT_PHONE: ${{ secrets.CONTACT_PHONE }}
         run: |
-          cat > contact-private.json << 'EOF'
+          # Format phone: 5511976680011 -> +55 11 97668-0011
+          RAW="$CONTACT_PHONE"
+          FORMATTED="+${RAW:0:2} ${RAW:2:2} ${RAW:4:5}-${RAW:9:4}"
+          cat > contact-private.json << EOF
           {
-            "email": "${{ secrets.CONTACT_EMAIL }}",
-            "phone": "${{ secrets.CONTACT_PHONE }}",
-            "whatsapp": "${{ secrets.CONTACT_WHATSAPP }}"
+            "email": "$CONTACT_EMAIL",
+            "phone": "$FORMATTED",
+            "whatsapp": "https://wa.me/$RAW"
           }
           EOF
 
