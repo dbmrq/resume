@@ -1,0 +1,707 @@
+# ATS Keywords for CV optimization
+# These are rendered invisibly in the PDF for automated resume screening
+
+# Roles & Titles
+- Mobile Engineering Manager
+- Head of Engineering
+- Head of Mobile Engineering
+- Senior Engineering Manager
+- Director of Engineering
+- VP Engineering
+- Vice President Engineering
+- Software Development Manager
+- SDM
+- SDM2
+- Engineering Lead
+- Tech Lead
+- Technical Lead
+- Engineering Director
+- Mobile Lead
+- iOS Lead
+- Android Lead
+- Platform Lead
+- Development Manager
+- Software Engineering Manager
+- SEM
+- Principal Engineer
+- Staff Engineer
+
+# Agile & Methodologies
+- Agile
+- Scrum
+- Kanban
+- SAFe
+- Scaled Agile Framework
+- Lean
+- Sprint Planning
+- Retrospectives
+- Story Points
+- Velocity
+- Backlog Grooming
+- Backlog Refinement
+- Continuous Improvement
+- Agile Coach
+- Scrum Master
+- Product Owner
+- User Stories
+- Epics
+- Release Planning
+- Iteration Planning
+- Daily Standup
+- Stand-up
+- Ceremonies
+- Agile Transformation
+
+# AI & Emerging Tech
+- AI
+- Artificial Intelligence
+- Machine Learning
+- ML
+- LLM
+- Large Language Models
+- Generative AI
+- GenAI
+- GitHub Copilot
+- AI Pair Programming
+- Prompt Engineering
+- MLOps
+- ChatGPT
+- Claude
+- Cursor
+- AI-Assisted Development
+- Copilot
+- AI Coding Assistant
+- Neural Networks
+- Deep Learning
+- NLP
+- Natural Language Processing
+
+# Soft Skills & Leadership
+- Emotional Intelligence
+- EQ
+- Servant Leadership
+- Empathy
+- Active Listening
+- Difficult Conversations
+- Stakeholder Management
+- Executive Communication
+- Strategic Thinking
+- Decision Making
+- Influence Without Authority
+- Building Trust
+- Team Building
+- Talent Development
+- Succession Planning
+- Diversity and Inclusion
+- DEI
+- D&I
+- Psychological Safety
+- Conflict Resolution
+- Change Management
+- Coaching
+- Mentoring
+- Mentorship
+- Performance Management
+- Career Development
+- 1:1s
+- One-on-ones
+- Skip Levels
+- Feedback
+- Growth Mindset
+- Leadership Development
+- People Management
+- Team Leadership
+- Cross-functional Leadership
+
+# Technical & Platform
+- Mobile Platform
+- Native Mobile
+- Mobile Development
+- Enterprise Mobile
+- FinTech
+- Financial Services
+- Banking
+- White-label
+- White Label
+- SDK
+- API Integration
+- Microservices
+- Cloud Native
+- AWS
+- Amazon Web Services
+- Azure
+- Microsoft Azure
+- GCP
+- Google Cloud Platform
+- Technical Debt
+- Code Review
+- Architecture Review
+- System Design
+- Technical Architecture
+- Mobile Architecture
+- Platform Engineering
+- iOS Development
+- Android Development
+- Cross-Platform
+- Hybrid Mobile
+- React Native
+- Flutter
+- Mobile SDK
+- Push Notifications
+- Mobile Security
+- App Store
+- Google Play
+- Mobile Analytics
+- Crash Reporting
+- Performance Optimization
+
+# iOS Specific
+- Swift
+- Swift 6
+- SwiftUI
+- UIKit
+- Objective-C
+- Xcode
+- Xcode Cloud
+- TestFlight
+- CocoaPods
+- SPM
+- Swift Package Manager
+- Combine
+- async/await
+- Swift Concurrency
+- Core Data
+- CloudKit
+- App Clips
+- Widgets
+- WidgetKit
+- StoreKit
+- In-App Purchase
+- Instruments
+- LLDB
+- XCTest
+- XCUITest
+- iOS 18
+- iOS 17
+- visionOS
+- watchOS
+- tvOS
+- macOS
+- Apple Developer
+- WWDC
+
+# Android Specific
+- Kotlin
+- Java
+- Android SDK
+- Jetpack Compose
+- Android Studio
+- Gradle
+- Android Architecture Components
+- Room
+- Retrofit
+- Dagger
+- Hilt
+- Coroutines
+- Kotlin Flow
+- Android Jetpack
+- Material Design
+- Google Play Console
+- Firebase
+- Firebase Analytics
+- Firebase Crashlytics
+
+# Delivery & Operations
+- DevOps
+- SRE
+- Site Reliability
+- Site Reliability Engineering
+- On-call
+- Production Support
+- SLA
+- Service Level Agreement
+- OKRs
+- Objectives and Key Results
+- KPIs
+- Key Performance Indicators
+- Metrics-driven
+- Data-driven
+- A/B Testing
+- Feature Flags
+- Feature Toggles
+- Release Management
+- Deployment
+- Continuous Delivery
+- Continuous Deployment
+- Rollback
+- Blue-Green Deployment
+- Canary Release
+- Monitoring
+- Alerting
+- PagerDuty
+- Observability
+- Telemetry
+- Logging
+- Tracing
+- APM
+- Application Performance Monitoring
+
+# CI/CD & DevOps Tools
+- CI/CD
+- Continuous Integration
+- GitHub Actions
+- Azure Pipelines
+- Azure DevOps
+- Jenkins
+- CircleCI
+- Bitrise
+- Fastlane
+- Git
+- GitHub
+- GitLab
+- Bitbucket
+- Version Control
+- Trunk-based Development
+- GitFlow
+- Pull Requests
+- Code Review
+- Static Analysis
+- Linting
+- SwiftLint
+- Detekt
+- SonarQube
+
+# Process & Org
+- Remote Leadership
+- Remote Work
+- Remote First
+- Distributed Teams
+- Async Communication
+- Asynchronous Communication
+- Documentation Culture
+- Engineering Culture
+- Technical Roadmap
+- Resource Planning
+- Capacity Planning
+- Budget Management
+- Vendor Management
+- Offshore Teams
+- Nearshore
+- Outsourcing
+- Staff Augmentation
+- Hiring
+- Recruiting
+- Interview Process
+- Technical Interviews
+- Onboarding
+- Offboarding
+- Team Scaling
+- Organizational Design
+- Org Design
+- Matrix Organization
+- Functional Organization
+- Cross-timezone
+- Global Teams
+- International Teams
+- Multi-site
+- Headcount Planning
+- FTE
+- Contractors
+
+# Project Management Tools
+- Jira
+- Confluence
+- Notion
+- Linear
+- Asana
+- Trello
+- Monday
+- Slack
+- Microsoft Teams
+- Zoom
+- Miro
+- Figma
+
+# Quality & Testing
+- Quality Assurance
+- QA
+- Unit Testing
+- Integration Testing
+- End-to-End Testing
+- E2E Testing
+- Test Automation
+- TDD
+- Test-Driven Development
+- BDD
+- Behavior-Driven Development
+- Code Coverage
+- Regression Testing
+- Smoke Testing
+- UAT
+- User Acceptance Testing
+- Bug Tracking
+- Defect Management
+- Quality Metrics
+- Crash Rate
+- ANR
+- App Not Responding
+- Performance Testing
+- Load Testing
+- Security Testing
+- Accessibility Testing
+- a11y
+
+# Architecture & Patterns
+- MVVM
+- MVC
+- MVP
+- VIPER
+- Clean Architecture
+- Uncle Bob
+- Robert C. Martin
+- Hexagonal Architecture
+- Ports and Adapters
+- Onion Architecture
+- Layered Architecture
+- Domain-Driven Design
+- DDD
+- Event Sourcing
+- CQRS
+- Command Query Responsibility Segregation
+- Modular Architecture
+- Monorepo
+- Multi-module
+- Microservices Architecture
+- Monolithic Architecture
+- Service-Oriented Architecture
+- SOA
+- API Design
+- REST
+- RESTful
+- GraphQL
+- gRPC
+- WebSocket
+- Event-Driven
+- Pub/Sub
+- Message Queue
+- Kafka
+- RabbitMQ
+
+# SOLID Principles
+- SOLID
+- SOLID Principles
+- Single Responsibility Principle
+- SRP
+- Open/Closed Principle
+- OCP
+- Liskov Substitution Principle
+- LSP
+- Interface Segregation Principle
+- ISP
+- Dependency Inversion Principle
+- DIP
+- Dependency Injection
+- DI
+- Inversion of Control
+- IoC
+
+# Design Patterns
+- Design Patterns
+- Gang of Four
+- GoF
+- Creational Patterns
+- Structural Patterns
+- Behavioral Patterns
+- Singleton
+- Factory Pattern
+- Abstract Factory
+- Builder Pattern
+- Prototype Pattern
+- Adapter Pattern
+- Bridge Pattern
+- Composite Pattern
+- Decorator Pattern
+- Facade Pattern
+- Flyweight Pattern
+- Proxy Pattern
+- Chain of Responsibility
+- Command Pattern
+- Iterator Pattern
+- Mediator Pattern
+- Memento Pattern
+- Observer Pattern
+- State Pattern
+- Strategy Pattern
+- Template Method
+- Visitor Pattern
+- Repository Pattern
+- Unit of Work
+- Coordinator Pattern
+- Delegate Pattern
+- Protocol-Oriented Programming
+- POP
+- Object-Oriented Programming
+- OOP
+- Functional Programming
+- FP
+- Reactive Programming
+- RxSwift
+- RxJava
+- Reactive Extensions
+- Rx
+
+# Developer Tools & IDEs
+- Xcode
+- Android Studio
+- Visual Studio Code
+- VS Code
+- IntelliJ IDEA
+- AppCode
+- Vim
+- Neovim
+- Terminal
+- Command Line
+- CLI
+- Shell Scripting
+- Bash
+- Zsh
+- Homebrew
+- CocoaPods
+- Carthage
+- Swift Package Manager
+- SPM
+- Gradle
+- Maven
+- npm
+- Yarn
+- pip
+- Poetry
+
+# Collaboration & Documentation Tools
+- Jira
+- Confluence
+- Notion
+- Linear
+- Asana
+- Trello
+- Monday
+- ClickUp
+- Basecamp
+- Slack
+- Microsoft Teams
+- Zoom
+- Google Meet
+- Miro
+- FigJam
+- Figma
+- Sketch
+- Zeplin
+- Abstract
+- InVision
+- Loom
+- Calendly
+
+# Version Control & Code Management
+- Git
+- GitHub
+- GitLab
+- Bitbucket
+- Azure Repos
+- Perforce
+- SVN
+- Subversion
+- Pull Requests
+- Merge Requests
+- Code Review
+- Pair Programming
+- Mob Programming
+- Trunk-based Development
+- GitFlow
+- GitHub Flow
+- Feature Branches
+- Release Branches
+
+# Testing & Quality Tools
+- XCTest
+- XCUITest
+- Quick
+- Nimble
+- Espresso
+- JUnit
+- Mockito
+- Robolectric
+- Appium
+- Detox
+- Selenium
+- Cypress
+- Jest
+- Mocha
+- pytest
+- unittest
+- Charles Proxy
+- Proxyman
+- Postman
+- Insomnia
+- Swagger
+- OpenAPI
+
+# Monitoring & Observability Tools
+- Splunk
+- Datadog
+- New Relic
+- Dynatrace
+- AppDynamics
+- Sentry
+- Bugsnag
+- Crashlytics
+- Firebase Crashlytics
+- Instabug
+- PagerDuty
+- OpsGenie
+- VictorOps
+- Grafana
+- Prometheus
+- ELK Stack
+- Elasticsearch
+- Logstash
+- Kibana
+- Sumo Logic
+- Honeycomb
+
+# Cloud & Infrastructure
+- AWS
+- Amazon Web Services
+- EC2
+- S3
+- Lambda
+- CloudFormation
+- Azure
+- Microsoft Azure
+- Azure Functions
+- Azure App Service
+- GCP
+- Google Cloud Platform
+- Cloud Run
+- Firebase
+- Heroku
+- Vercel
+- Netlify
+- Docker
+- Kubernetes
+- K8s
+- Terraform
+- Ansible
+- Chef
+- Puppet
+- CloudFlare
+- Fastly
+- CDN
+- Content Delivery Network
+
+# Databases & Storage
+- SQL
+- NoSQL
+- PostgreSQL
+- MySQL
+- SQLite
+- MongoDB
+- DynamoDB
+- Redis
+- Memcached
+- Realm
+- Core Data
+- CloudKit
+- Firebase Realtime Database
+- Firestore
+- Couchbase
+- Cassandra
+- GraphQL
+- Apollo
+- Prisma
+
+# Security & Authentication
+- OAuth
+- OAuth 2.0
+- OpenID Connect
+- OIDC
+- JWT
+- JSON Web Token
+- SAML
+- SSO
+- Single Sign-On
+- MFA
+- Multi-Factor Authentication
+- 2FA
+- Two-Factor Authentication
+- Biometrics
+- Face ID
+- Touch ID
+- Keychain
+- Certificate Pinning
+- SSL
+- TLS
+- HTTPS
+- Encryption
+- AES
+- RSA
+- OWASP
+- Penetration Testing
+- Vulnerability Assessment
+
+# Data & Analytics
+- Splunk
+- Datadog
+- New Relic
+- Mixpanel
+- Amplitude
+- Google Analytics
+- App Analytics
+- Mobile Analytics
+- User Analytics
+- Funnel Analysis
+- Cohort Analysis
+- Retention
+- Engagement Metrics
+- DAU
+- MAU
+- Daily Active Users
+- Monthly Active Users
+- Conversion Rate
+- Churn Rate
+
+# Industry & Domain
+- B2B
+- B2C
+- Enterprise Software
+- SaaS
+- Consumer Apps
+- Financial Technology
+- FinServ
+- Payments
+- Digital Banking
+- Mobile Banking
+- Benefits Administration
+- Healthcare
+- Insurance
+- Compliance
+- Regulatory
+- PCI
+- SOC2
+- GDPR
+- Security
+- Data Privacy
+
+# Certifications & Education (common ATS terms)
+- Computer Science
+- Software Engineering
+- Bachelor's Degree
+- Master's Degree
+- PhD
+- Certified
+- AWS Certified
+- Scrum Certified
+- CSM
+- PSM
+- PMP
+- TOGAF
+

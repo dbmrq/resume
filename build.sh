@@ -19,10 +19,29 @@ PHONE=$(jq -r '.phone' contact-private.json)
 WHATSAPP=$(jq -r '.whatsapp' contact-private.json)
 
 # --- PDF Generation ---
-# Create temp cv.md with real contact info substituted
-sed -e "s|{{EMAIL_LINK}}|[$EMAIL](mailto:$EMAIL)|g" \
-    -e "s|{{PHONE_LINK}}|[$PHONE]($WHATSAPP)|g" \
-    cv.md > cv-temp.md
+# Create temp cv.md with real contact info and keywords merged
+# First, extract frontmatter and body from cv.md
+{
+  # Read cv.md and inject keywords from keywords.yaml into the frontmatter
+  awk '
+    BEGIN { in_frontmatter = 0; frontmatter_end = 0 }
+    /^---$/ && !in_frontmatter { in_frontmatter = 1; print; next }
+    /^---$/ && in_frontmatter {
+      # Inject keywords before closing frontmatter
+      print "keywords:"
+      while ((getline line < "keywords.yaml") > 0) {
+        if (line ~ /^[[:space:]]*-/) print line
+      }
+      close("keywords.yaml")
+      print "---"
+      in_frontmatter = 0
+      frontmatter_end = 1
+      next
+    }
+    { print }
+  ' cv.md
+} | sed -e "s|{{EMAIL_LINK}}|[$EMAIL](mailto:$EMAIL)|g" \
+        -e "s|{{PHONE_LINK}}|[$PHONE]($WHATSAPP)|g" > cv-temp.md
 
 pandoc cv-temp.md \
   -o cv.pdf \
