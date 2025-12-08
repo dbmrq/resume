@@ -16,16 +16,21 @@ concurrency:
 
 jobs:
   build:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-extra fonts-inter jq
 
       - name: Create contact-private.json from secrets
         env:
           CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
           CONTACT_PHONE: ${{ secrets.CONTACT_PHONE }}
         run: |
-          # Format phone: 5511976680011 -> +55 11 97668-0011
+          set +x
           RAW="$CONTACT_PHONE"
           FORMATTED="+${RAW:0:2} ${RAW:2:2} ${RAW:4:5}-${RAW:9:4}"
           cat > contact-private.json << EOF
@@ -35,6 +40,7 @@ jobs:
             "whatsapp": "https://wa.me/$RAW"
           }
           EOF
+          echo "Contact info configured"
 
       - name: Build PDF and HTML
         run: ./build.sh
