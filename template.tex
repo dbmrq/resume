@@ -1,0 +1,94 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage{fontspec}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{setspace}
+\usepackage{titlesec}
+
+% Font - SF Pro Text with multiple weights
+\setmainfont{SF Pro Text}[
+  UprightFont = *-Light,
+  BoldFont = *-Medium,
+]
+\newfontfamily\sfmedium{SF Pro Text Medium}
+\newfontfamily\sfsemibold{SF Pro Text Semibold}
+\setmonofont{SF Pro Text}[
+  UprightFont = *-Light,
+  BoldFont = *-Medium,
+]
+
+% Line spacing
+\setstretch{1.15}
+
+% Paragraph spacing
+\setlength{\parskip}{0.6em}
+
+% No page numbers
+\pagestyle{empty}
+
+% Widow/orphan control
+\widowpenalty=10000
+\clubpenalty=10000
+
+% Links - same color as text
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=black,
+}
+
+% Left-aligned text (ragged right)
+\raggedright
+
+% Section styling - remove numbering, add spacing
+\setcounter{secnumdepth}{0}
+% H1 - Major sections (Profile, Professional Experience, etc.)
+\titleformat{\section}{\LARGE\sfsemibold}{}{0em}{}
+\titlespacing*{\section}{0pt}{2.2em}{0.8em}
+% H2 - Job titles
+\titleformat{\subsection}{\large\sfsemibold}{}{0em}{}
+\titlespacing*{\subsection}{0pt}{1.6em}{0.4em}
+% H3 - Sub-labels (Achievements)
+\titleformat{\subsubsection}{\normalsize\sfmedium}{}{0em}{}
+\titlespacing*{\subsubsection}{0pt}{1em}{0.2em}
+
+% Lists - hanging bullets
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=0pt, itemindent=0pt, labelsep=0.5em, labelwidth=0.5em, itemsep=0.3em, topsep=0.4em, parsep=0pt}
+
+% Required by pandoc for tight lists
+\providecommand{\tightlist}{\setlength{\itemsep}{0.3em}\setlength{\parskip}{0pt}}
+
+% Geometry
+$if(geometry)$
+\geometry{$geometry$}
+$endif$
+
+\begin{document}
+
+% Header
+\vspace*{1.5cm}
+\noindent{\huge\bfseries $name$}\\[0.3em]
+\vspace*{0.25cm}
+\noindent{\large $title$}\\[1em]
+\noindent
+$for(contact)$
+$contact$$sep$\\
+$endfor$
+
+\vspace{2em}
+
+$body$
+
+% Invisible keywords for ATS/search optimization
+$if(keywords)$
+\begingroup
+\fontsize{1pt}{1pt}\selectfont
+\textcolor{white}{%
+$for(keywords)$$keywords$$sep$, $endfor$%
+}
+\endgroup
+$endif$
+
+\end{document}

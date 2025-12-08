@@ -1,0 +1,7 @@
+# Private contact info (use GitHub secrets instead)
+contact-private.json
+
+# Generated files (built by GitHub Actions)
+index.html
+cv.pdf
+
