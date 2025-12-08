@@ -24,10 +24,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends \
-            pandoc texlive-xetex texlive-latex-recommended \
-            texlive-plain-generic fonts-inter jq
-          # Install only the specific LaTeX packages we need
-          sudo tlmgr install titlesec enumitem
+            pandoc texlive-xetex texlive-latex-extra fonts-inter jq
 
       - name: Create contact-private.json from secrets
         env:
