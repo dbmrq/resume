@@ -8,7 +8,7 @@ contact:
 ---
 
 # Profile
-Mobile engineering leader combining a decade of technical expertise with a background of scientific research in Psychology. I integrate large-scale architectural strategy with a deep understanding of human behavior to navigate shifting environments and foster psychological safety. With a focus on end-to-end ownership, from founding a top-rated product to managing other managers and staff engineers, I build resilient organizations and drive delivery excellence.
+Engineering leader with over a decade of experience, ranging from solo full-cycle engineering to architecting large-scale enterprise platforms. I merge technical expertise with a background in Psychology to build high-performing teams. A deep understanding of human behavior allows me to foster psychological safety and navigate shifting environments. Whether founding consumer products or managing managers, I drive end-to-end ownership and delivery excellence.
 
 # Core Strengths & Skills
 - **Organizational Leadership:** Leading other managers, cross-timezone collaboration across the US, Brazil, and India, hiring strategy, and performance calibration.
@@ -20,9 +20,9 @@ Mobile engineering leader combining a decade of technical expertise with a backg
 # Professional Experience
 
 ## Wex Inc. — Senior Engineering Manager (2025–Present)
-*I lead a strategic mobile division of over 30 engineers, managing 3 Engineering Managers, 4 Staff Engineers, and directing the work of partner teams.*
+*I oversee a strategic mobile division of over 30 engineers, leading 3 Engineering Managers, 4 Staff Engineers, and directing the work of partner teams.*
 
-I oversee engineering strategy for a white-label ecosystem of more than 640 mobile apps across three product lines with deep customization. As a manager of managers, I drive organizational health and leadership development, unifying internal and partner teams into a cohesive culture while managing resource allocation and strategic alignment.
+I supervise engineering strategy for a white-label ecosystem of more than 640 mobile apps across three product lines with deep customization. As a leader of managers, I drive organizational health and talent development, unifying internal and partner teams into a cohesive culture while managing resource allocation and strategic alignment.
 
 ### Key Achievements
 - **Scale & Automation:** Architected the delivery strategy for the entire app portfolio via shared codebases and automated release workflows using Python and Bash, enabling simultaneous updates across hundreds of clients.
