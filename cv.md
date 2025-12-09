@@ -8,30 +8,31 @@ contact:
 ---
 
 # Profile
-Mobile engineering leader with a unique background in Psychology and Philosophy, combining deep technical expertise with a focus on organizational health. I operate as a manager of managers, leading a mobile organization of approximately 30 engineers while overseeing a massive white-label ecosystem of over 640 apps. My experience spans large-scale technical leadership at Wex and end-to-end product ownership as the founder of Leio. I specialize in scaling high-performance teams, navigating complex change management, and driving operational discipline.
+Mobile engineering leader combining a decade of technical expertise with a background of scientific research in Psychology. I integrate large-scale architectural strategy with a deep understanding of human behavior to navigate conflict and foster psychological safety. With a focus on end-to-end ownership, from founding a product to managing other managers and staff engineers, I build resilient organizations and drive delivery excellence.
 
 # Core Strengths & Skills
 - **Organizational Leadership:** Leading other managers, cross-timezone collaboration across the US, Brazil, and India, hiring strategy, and performance calibration.
 - **People & Culture:** Driving engagement through change and ambiguity, conflict resolution, fostering autonomy, and coaching leaders on psychological safety and team health.
 - **Engineering Strategy:** Mobile platform architecture at scale, white-label automation, release engineering, and CI/CD process.
-- **Technical Stack:** Swift 6, SwiftUI, UIKit, Kotlin, Java, .NET, Python, Azure DevOps, GitHub Actions.
+- **Technical Expertise:** Swift 6, SwiftUI, UIKit, Mobile Architecture.
+- **Managed Technologies & Tooling:** Kotlin, Java, .NET, Python, Bash, Azure DevOps, GitHub Actions.
 
 # Professional Experience
 
 ## Wex Inc. — Senior Engineering Manager (2025–Present)
-*Lead a strategic mobile division of approximately 30 engineers, managing a layer of engineering managers and vendor partners.*
+*Lead a strategic mobile division of over 30 engineers, managing 3 Engineering Managers, 4 Staff Engineers, and directing the work of partner teams.*
 
-I oversee the engineering strategy and delivery for a massive white-label ecosystem of over 640 mobile apps, including Bank of America, PNC Bank, and Voya. I operate as a manager of managers, responsible for organizational health, leadership development, and integrating vendor partners into a unified engineering culture.
+I oversee engineering strategy for a white-label ecosystem of more than 640 mobile apps across three product lines with deep customization. As a manager of managers, I drive organizational health and leadership development, unifying internal and partner teams into a cohesive culture while managing resource allocation and strategic alignment.
 
 ### Key Achievements
-- **Scale & Automation:** Architected the delivery strategy for the entire app portfolio via shared codebases and automated release workflows, enabling simultaneous updates across hundreds of clients.
+- **Scale & Automation:** Architected the delivery strategy for the entire app portfolio via shared codebases and automated release workflows using Python and Bash, enabling simultaneous updates across hundreds of clients.
 - **Operational Excellence:** Led a CI/CD transformation that cut release cycles from months to under one hour, enabling prompt resolution of issues.
 - **Quality Engineering:** Reduced crash rates from over 4% to under 0.25% by enforcing rigorous architectural standards and automated testing frameworks.
 - **Global Team Integration:** Successfully integrated local and offshore partner teams across the United States, Brazil and India, aligning delivery cadence and quality standards in the organization.
-- **Organizational Growth:** Scaled the division into 4 cross-functional squads comprising 30 engineers, directly managing internal engineering managers, directing vendor partners, and defining promotion paths for staff engineers.
+- **Organizational Growth:** Scaled the division into 4 cross-functional squads comprising 30 engineers, managing internal engineering managers, directing partner teams, and defining promotion paths for senior engineers.
 
 ## Wex Inc. — Tech Lead Manager (2024–2025)
-*Transitioned from individual contributor to management, tasked with scaling a single team into multiple specialized squads while driving modernization and delivery excellence.*
+*Transitioned from individual contributor to management, scaling a single team into multiple specialized squads while driving modernization and delivery excellence.*
 
 ### Key Achievements
 - **Incident Management:** Reduced production incident response times from >3 days to <1 hour by leading improvements in telemetry, observability, and on-call practices.
@@ -46,16 +47,15 @@ I oversee the engineering strategy and delivery for a massive white-label ecosys
 - **Onboarding Standards:** Created the onboarding frameworks that became the standard for future global hires, facilitating rapid team growth.
 - **Modernization:** Drove the migration of legacy Objective‑C and Java to Swift and Kotlin and initiated the move toward a modular architecture.
 - **Code Quality:** Established coding standards and introduced automated tooling to enforce consistency across the codebase.
-- **Mentorship:** Facilitated the transition of junior and mid-level engineers from legacy codebases to modern patterns.
+- **Mentorship:** Facilitated the transition of other engineers from legacy codebases to modern patterns.
 
 ## <a href="https://app.leio.co" target="_blank" rel="noopener" class="heading-link">Leio — Founder & Product Engineer (2015–Present) <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a>
 
-*I own the end-to-end product lifecycle for Leio, a top-rated reading management app with a decade of continuous evolution and thousands of five-star ratings.*
+*I own the end-to-end product lifecycle for Leio, a top-rated reading management app with a decade of continuous evolution.*
 
 ### Key Achievements
-- **Product Strategy:** Bootstrapped a consumer product from zero to top-100 in Brazil, achieving 1,500 monthly active users and consistent revenue over 10 years.
-- **Technical Evolution:** Evolved a 10-year codebase from Objective-C and Swift 1 to Swift 6, transitioning to SwiftUI, strict concurrency, and a modular SPM architecture.
-- **Full Lifecycle:** Managed the entire app lifecycle including App Store optimization, legal compliance, and customer support.
+- **Technical Evolution:** Maintained a production codebase for over a decade, evolving it from Objective-C to Swift 6. Adopted modern standards including SwiftUI, strict concurrency, and a modular architecture to ensure long-term maintainability.
+- **Product Strategy:** Bootstrapped a consumer product to consistent revenue and top-tier ratings, managing the full lifecycle from design and development to legal compliance and customer support.
 
 # Additional Experience
 
