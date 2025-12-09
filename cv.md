@@ -19,7 +19,7 @@ Engineering leader with over a decade of experience, ranging from solo full-cycl
 
 # Professional Experience
 
-## Wex Inc. — Senior Engineering Manager (2025–Present)
+## Wex Inc. — Senior Engineering Manager (Software Development Management 3) (2025–Present)
 *I oversee a strategic mobile division of over 30 engineers, leading 3 Engineering Managers, 4 Staff Engineers, and directing the work of partner teams.*
 
 I supervise engineering strategy for a white-label ecosystem of more than 640 mobile apps across three product lines with deep customization. As a leader of managers, I drive organizational health and talent development, unifying internal and partner teams into a cohesive culture while managing resource allocation and strategic alignment.
@@ -32,7 +32,7 @@ I supervise engineering strategy for a white-label ecosystem of more than 640 mo
 - **Organizational Growth:** Scaled the division into 4 cross-functional squads comprising 30 engineers, managing internal engineering managers, directing partner teams, and defining promotion paths for staff engineers.
 - **AI & Innovation:** Championed the adoption of AI agents by designing learning paths and allocating dedicated time, leading to multiple hackathon wins and the development of an AI-driven product for app review analysis.
 
-## Wex Inc. — Tech Lead Manager (2024–2025)
+## Wex Inc. — Engineering Manager (Software Development Management 2) (2024–2025)
 *Transitioned from individual contributor to management, scaling a single team into multiple specialized squads while driving modernization and delivery excellence.*
 
 ### Key Achievements
