@@ -32,8 +32,9 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends \
-            pandoc texlive-xetex texlive-latex-extra \
-            texlive-fonts-recommended fonts-inter jq
+            pandoc texlive-luatex texlive-latex-extra \
+            texlive-fonts-recommended texlive-fonts-extra \
+            fonts-inter jq
 
       - name: Create contact-private.json from secrets
         env:

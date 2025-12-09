@@ -62,7 +62,7 @@ I oversee the engineering strategy and delivery for a massive white-label ecosys
 ## The School of Life — Psychotherapist and Lecturer (2017–Present, part-time)
 I use my expertise in human behavior to coach individuals and groups on emotional intelligence, communication, and interpersonal dynamics.
 
-## Faculdades Metropolitanas Unidas — University Professor (2019–2023, part-time)
+## FMU — University Professor (2019–2023, part-time)
 I taught complex theoretical concepts and supervised the clinical practice of hundreds of students, honing skills in mentorship, clear communication, and guiding the professional development of others.
 
 # Education
