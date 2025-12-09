@@ -76,7 +76,9 @@
       iframe.src = pdfUrl;
       document.body.appendChild(iframe);
       iframe.onload = function() {
-        iframe.contentWindow.print();
+        setTimeout(function() {
+          iframe.contentWindow.print();
+        }, 500);
       };
     }
 

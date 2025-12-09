@@ -8,7 +8,7 @@ contact:
 ---
 
 # Profile
-Engineering leader with over a decade of experience, ranging from solo full-cycle engineering to architecting large-scale enterprise platforms. I merge technical expertise with a background in Psychology to build high-performing teams. A deep understanding of human behavior allows me to foster psychological safety and navigate shifting environments. Whether founding consumer products or managing managers, I drive end-to-end ownership and delivery excellence.
+Engineering leader with over a decade of hands-on experience, ranging from solo full-cycle engineering to architecting large-scale enterprise platforms. I merge technical expertise with a background in Psychology to build high-performing teams, leveraging a deep understanding of human behavior to foster psychological safety and navigate shifting environments. Whether founding consumer products or managing managers, I drive end-to-end ownership and delivery excellence.
 
 # Core Strengths & Skills
 - **Engineering Strategy:** Mobile platform architecture at scale, white-label automation, release engineering, CI/CD process, and AI adoption strategy.
