@@ -11,10 +11,10 @@ contact:
 Engineering leader with over a decade of hands-on experience, ranging from solo full-cycle engineering to architecting large-scale enterprise platforms. I merge technical expertise with a background in Psychology to build high-performing teams, leveraging a deep understanding of human behavior to foster psychological safety and navigate shifting environments. Whether founding consumer products or managing managers, I drive end-to-end ownership and delivery excellence.
 
 # Core Strengths & Skills
+- **Organizational Leadership:** Leading other managers, cross-timezone collaboration across the US, Brazil, and India, hiring strategy, and performance calibration.
 - **Engineering Strategy:** Mobile platform architecture at scale, white-label automation, release engineering, CI/CD process, and AI adoption strategy.
 - **Technical Expertise:** Swift 6, Objective-C, SwiftUI, UIKit, Mobile Architecture.
 - **Managed Technologies & Tooling:** Kotlin, Java, .NET, Python, Bash, Azure DevOps, GitHub Actions.
-- **Organizational Leadership:** Leading other managers, cross-timezone collaboration across the US, Brazil, and India, hiring strategy, and performance calibration.
 - **People & Culture:** Driving engagement through change and ambiguity, conflict resolution, fostering autonomy, and coaching leaders on psychological safety and team health.
 
 # Professional Experience
