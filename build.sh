@@ -54,7 +54,7 @@ fi
 pandoc cv-temp.md \
   -o cv.pdf \
   --pdf-engine=lualatex \
-  --template=template.tex \
+  --template=templates/template.tex \
   -V geometry:"top=4cm, bottom=2.5cm, left=4cm, right=4cm"
 
 rm cv-temp.md
@@ -78,6 +78,6 @@ sed -e "s|{{EMAIL_CODES}}|$email_codes|g" \
     -e "s|{{PHONE_CODES}}|$phone_codes|g" \
     -e "s|{{WHATSAPP_CODES}}|$whatsapp_codes|g" \
     -e "s|{{KEYWORDS}}|$keywords_string|g" \
-    index-template.html > index.html
+    templates/index-template.html > index.html
 
 echo "index.html generated with obfuscated contact info"
