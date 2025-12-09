@@ -8,7 +8,7 @@ contact:
 ---
 
 # Profile
-Mobile engineering leader combining a decade of technical expertise with a background of scientific research in Psychology. I integrate large-scale architectural strategy with a deep understanding of human behavior to navigate shifting environments and foster psychological safety. With a focus on end-to-end ownership, from founding a product to managing other managers and staff engineers, I build resilient organizations and drive delivery excellence.
+Mobile engineering leader combining a decade of technical expertise with a background of scientific research in Psychology. I integrate large-scale architectural strategy with a deep understanding of human behavior to navigate shifting environments and foster psychological safety. With a focus on end-to-end ownership, from founding a top-rated product to managing other managers and staff engineers, I build resilient organizations and drive delivery excellence.
 
 # Core Strengths & Skills
 - **Organizational Leadership:** Leading other managers, cross-timezone collaboration across the US, Brazil, and India, hiring strategy, and performance calibration.
