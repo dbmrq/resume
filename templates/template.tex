@@ -10,20 +10,22 @@
 \usepackage{graphicx}
 
 % Font - Inter variable font with weight axis
-% Body: Light (300), Bold: Medium (500), Headers: SemiBold (600)
-\newfontfamily\sflight{Inter}[Renderer=HarfBuzz, RawFeature={axis={wght=300}}]
-\newfontfamily\sfmedium{Inter}[Renderer=HarfBuzz, RawFeature={axis={wght=500}}]
-\newfontfamily\sfsemibold{Inter}[Renderer=HarfBuzz, RawFeature={axis={wght=600}}]
-\setmainfont{Inter}[
+% Body: Light (300), Bold: Regular (400), Headers: SemiBold (600)
+% Font name passed via variable (differs between local and CI)
+\newcommand{\interfont}{$if(interfont)$$interfont$$else$Inter$endif$}
+\newfontfamily\sflight{\interfont}[Renderer=HarfBuzz, RawFeature={axis={wght=300}}]
+\newfontfamily\sfmedium{\interfont}[Renderer=HarfBuzz, RawFeature={axis={wght=500}}]
+\newfontfamily\sfsemibold{\interfont}[Renderer=HarfBuzz, RawFeature={axis={wght=600}}]
+\setmainfont{\interfont}[
   Renderer = HarfBuzz,
   RawFeature = {axis={wght=300}},
-  BoldFont = {Inter},
+  BoldFont = {\interfont},
   BoldFeatures = {RawFeature={axis={wght=400}}},
 ]
-\setmonofont{Inter}[
+\setmonofont{\interfont}[
   Renderer = HarfBuzz,
   RawFeature = {axis={wght=300}},
-  BoldFont = {Inter},
+  BoldFont = {\interfont},
   BoldFeatures = {RawFeature={axis={wght=400}}},
 ]
 

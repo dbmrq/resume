@@ -51,11 +51,19 @@ fi
 } | sed -e "s|{{EMAIL_LINK}}|[$EMAIL](mailto:$EMAIL)|g" \
         -e "s|{{PHONE_LINK}}|[$PHONE]($WHATSAPP)|g" > cv-temp.md
 
+# Detect Inter font name (differs between local and CI)
+if fc-list | grep -q "Inter Variable"; then
+  INTER_FONT="Inter Variable"
+else
+  INTER_FONT="Inter"
+fi
+
 pandoc cv-temp.md \
   -o cv.pdf \
   --pdf-engine=lualatex \
   --template=templates/template.tex \
-  -V geometry:"top=4cm, bottom=2.5cm, left=4cm, right=4cm"
+  -V geometry:"top=4cm, bottom=2.5cm, left=4cm, right=4cm" \
+  -V interfont:"$INTER_FONT"
 
 rm cv-temp.md
 echo "PDF generated: cv.pdf"

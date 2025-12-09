@@ -40,7 +40,7 @@ jobs:
         run: |
           mkdir -p ~/.local/share/fonts
           curl -L -o inter.zip "https://github.com/rsms/inter/releases/download/v4.1/Inter-4.1.zip"
-          unzip -j inter.zip "Inter-4.1/Inter-VariableFont_opsz,wght.ttf" -d ~/.local/share/fonts/
+          unzip -j inter.zip "InterVariable.ttf" -d ~/.local/share/fonts/
           fc-cache -fv
 
       - name: Create contact-private.json from secrets
