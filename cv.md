@@ -23,7 +23,7 @@ Mobile engineering leader with a unique background in Psychology and Philosophy,
 
 I oversee the engineering strategy and delivery for a massive white-label ecosystem of over 640 mobile apps, including Bank of America, PNC Bank, and Voya. I operate as a manager of managers, responsible for organizational health, leadership development, and integrating vendor partners into a unified engineering culture.
 
-### Achievements
+### Key Achievements
 - **Scale & Automation:** Architected the delivery strategy for the entire app portfolio via shared codebases and automated release workflows, enabling simultaneous updates across hundreds of clients.
 - **Operational Excellence:** Led a CI/CD transformation that cut release cycles from months to under one hour, enabling prompt resolution of issues.
 - **Quality Engineering:** Reduced crash rates from over 4% to under 0.25% by enforcing rigorous architectural standards and automated testing frameworks.
@@ -33,6 +33,7 @@ I oversee the engineering strategy and delivery for a massive white-label ecosys
 ## Wex Inc. — Tech Lead Manager (2024–2025)
 *Transitioned from individual contributor to management, tasked with scaling a single team into multiple specialized squads while driving modernization and delivery excellence.*
 
+### Key Achievements
 - **Incident Management:** Reduced production incident response times from >3 days to <1 hour by leading improvements in telemetry, observability, and on-call practices.
 - **Engineering Maturity:** Defined engineering maturity models and mentored new leads to support the expansion into specialized squads.
 - **Hiring & Process:** Redesigned interview loops and assessment metrics to improve hiring quality, clarifying metrics used in performance assessment.
@@ -41,6 +42,7 @@ I oversee the engineering strategy and delivery for a massive white-label ecosys
 ## Wex Inc. — Senior iOS Engineer (2022–2024)
 *First Brazil-based engineer in the organization, responsible for establishing the local engineering culture and laying the groundwork for global hiring and codebase modernization.*
 
+### Key Achievements
 - **Onboarding Standards:** Created the onboarding frameworks that became the standard for future global hires, facilitating rapid team growth.
 - **Modernization:** Drove the migration of legacy Objective‑C and Java to Swift and Kotlin and initiated the move toward a modular architecture.
 - **Code Quality:** Established coding standards and introduced automated tooling to enforce consistency across the codebase.
@@ -48,9 +50,9 @@ I oversee the engineering strategy and delivery for a massive white-label ecosys
 
 ## <a href="https://app.leio.co" target="_blank" rel="noopener" class="heading-link">Leio — Founder & Product Engineer (2015–Present) <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a>
 
-I own the end-to-end product lifecycle for Leio, a top-rated reading management app with a decade of continuous evolution and thousands of five-star ratings.
+*I own the end-to-end product lifecycle for Leio, a top-rated reading management app with a decade of continuous evolution and thousands of five-star ratings.*
 
-### Achievements
+### Key Achievements
 - **Product Strategy:** Bootstrapped a consumer product from zero to top-100 in Brazil, achieving 1,500 monthly active users and consistent revenue over 10 years.
 - **Technical Evolution:** Evolved a 10-year codebase from Objective-C and Swift 1 to Swift 6, transitioning to SwiftUI, strict concurrency, and a modular SPM architecture.
 - **Full Lifecycle:** Managed the entire app lifecycle including App Store optimization, legal compliance, and customer support.

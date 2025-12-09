@@ -7,24 +7,31 @@
 \usepackage{titlesec}
 \usepackage{fancyhdr}
 \usepackage{lastpage}
+\usepackage{graphicx}
 
-% Font - Inter with multiple weights
+% Font - Inter variable font with weight axis
+% Body: Light (300), Bold: Medium (500), Headers: SemiBold (600)
+\newfontfamily\sflight{Inter}[Renderer=HarfBuzz, RawFeature={axis={wght=300}}]
+\newfontfamily\sfmedium{Inter}[Renderer=HarfBuzz, RawFeature={axis={wght=500}}]
+\newfontfamily\sfsemibold{Inter}[Renderer=HarfBuzz, RawFeature={axis={wght=600}}]
 \setmainfont{Inter}[
-  UprightFont = *-Light,
-  BoldFont = *-Medium,
+  Renderer = HarfBuzz,
+  RawFeature = {axis={wght=300}},
+  BoldFont = {Inter},
+  BoldFeatures = {RawFeature={axis={wght=400}}},
 ]
-\newfontfamily\sfmedium{Inter Medium}
-\newfontfamily\sfsemibold{Inter SemiBold}
 \setmonofont{Inter}[
-  UprightFont = *-Light,
-  BoldFont = *-Medium,
+  Renderer = HarfBuzz,
+  RawFeature = {axis={wght=300}},
+  BoldFont = {Inter},
+  BoldFeatures = {RawFeature={axis={wght=400}}},
 ]
 
 % Line spacing
-\setstretch{1.15}
+\setstretch{1.2}
 
 % Paragraph spacing
-\setlength{\parskip}{0.6em}
+\setlength{\parskip}{0.7em}
 
 % Page style with invisible keywords in footer
 \pagestyle{fancy}
@@ -61,7 +68,7 @@ $endif$
 \titleformat{\subsection}{\large\sfsemibold}{}{0em}{}
 \titlespacing*{\subsection}{0pt}{1.6em}{0.4em}
 % H3 - Sub-labels (Achievements)
-\titleformat{\subsubsection}{\normalsize\sfmedium}{}{0em}{}
+\titleformat{\subsubsection}{\normalsize\sfsemibold}{}{0em}{}
 \titlespacing*{\subsubsection}{0pt}{1em}{0.2em}
 
 % Lists - hanging bullets
@@ -78,12 +85,11 @@ $endif$
 
 \begin{document}
 
-% Header
+% Header without QR code
 \vspace*{1.5cm}
 \noindent{\huge\bfseries $name$}\\[0.3em]
 \vspace*{0.25cm}
-\noindent{\large $title$}\\[1em]
-\noindent
+{\large $title$}\\[1em]
 $for(contact)$
 $contact$$sep$\\
 $endfor$
@@ -91,5 +97,22 @@ $endfor$
 \vspace{2em}
 
 $body$
+
+% Footer with QR code and source info
+\vfill
+\noindent\rule{\textwidth}{0.4pt}
+\vspace{0.1em}
+
+\noindent\begin{minipage}[c]{\dimexpr\textwidth-1.6cm\relax}
+\fontsize{8pt}{10pt}\selectfont
+This CV was built using Pandoc, Lua\LaTeX, and GitHub Actions.
+The source is available at \href{https://github.com/dbmrq/resume}{github.com/dbmrq/resume}.
+This version is optimized for print—for an enhanced digital experience,
+visit \href{https://daniel.leio.co}{daniel.leio.co} or scan the QR code.
+\end{minipage}%
+\hfill%
+\begin{minipage}[c]{1cm}
+\includegraphics[width=1cm]{qrcode/qrcode_leio.pdf}
+\end{minipage}
 
 \end{document}

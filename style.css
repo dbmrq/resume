@@ -28,6 +28,7 @@ body {
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 3rem 1.5rem 5rem;
+  flex: 1;
 }
 
 .header {
@@ -127,9 +128,55 @@ a {
 
 a:hover { color: #2d4373; }
 
+/* Footer */
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 2rem 1.5rem;
+  margin-top: 2rem;
+}
+
+.footer-content {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.footer-content p {
+  font-size: 0.8125rem;
+  color: #666;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.footer-content a {
+  color: var(--link);
+}
+
+.footer-content .latex {
+  font-size: 0.9em;
+}
+
+.footer-content .latex sup {
+  font-size: 0.7em;
+  vertical-align: 0.35em;
+  margin-left: -0.1em;
+}
+
+.footer-content .latex sub {
+  font-size: 0.7em;
+  vertical-align: -0.2em;
+  margin-left: -0.15em;
+}
+
 /* Print - just hide the button, PDF handles the rest */
 @media print {
   .header { display: none; }
+  .site-footer { display: none; }
 }
 
 /* Responsive */

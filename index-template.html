@@ -13,6 +13,7 @@
 <body>
   <!-- Keywords for ATS and search optimization (injected from keywords.yaml at build time) -->
   <div id="keywords" aria-hidden="true" style="position:absolute;left:-9999px;top:-9999px;width:1px;height:1px;overflow:hidden;">{{KEYWORDS}}</div>
+  <div class="page-wrapper">
   <div class="container">
     <header class="header">
       <nav class="header-icons">
@@ -54,6 +55,17 @@
       </nav>
     </header>
     <main id="content"></main>
+  </div>
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p>
+        This CV was built using Pandoc, Lua<span class="latex">L<sup>A</sup>T<sub>E</sub>X</span>, and GitHub Actions.
+        The source is available on <a href="https://github.com/dbmrq/resume" target="_blank" rel="noopener">GitHub</a>.
+        This version is optimized for screens—for a better print experience,
+        <a href="cv.pdf" download>download the PDF</a>.
+      </p>
+    </div>
+  </footer>
   </div>
   <script>
     // Print the PDF version

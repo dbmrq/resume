@@ -14,9 +14,17 @@
 set -e
 
 # Read contact info from private file (created from GitHub secrets in CI)
-EMAIL=$(jq -r '.email' contact-private.json)
-PHONE=$(jq -r '.phone' contact-private.json)
-WHATSAPP=$(jq -r '.whatsapp' contact-private.json)
+# If contact-private.json doesn't exist, use placeholders for local testing
+if [ -f "contact-private.json" ]; then
+  EMAIL=$(jq -r '.email' contact-private.json)
+  PHONE=$(jq -r '.phone' contact-private.json)
+  WHATSAPP=$(jq -r '.whatsapp' contact-private.json)
+else
+  echo "Note: contact-private.json not found, using placeholders for local testing"
+  EMAIL="email@example.com"
+  PHONE="+1 (555) 123-4567"
+  WHATSAPP="https://wa.me/15551234567"
+fi
 
 # --- PDF Generation ---
 # Create temp cv.md with real contact info and keywords merged
@@ -45,7 +53,7 @@ WHATSAPP=$(jq -r '.whatsapp' contact-private.json)
 
 pandoc cv-temp.md \
   -o cv.pdf \
-  --pdf-engine=xelatex \
+  --pdf-engine=lualatex \
   --template=template.tex \
   -V geometry:"top=4cm, bottom=2.5cm, left=4cm, right=4cm"
 
