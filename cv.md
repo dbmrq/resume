@@ -8,19 +8,19 @@ contact:
 ---
 
 # Profile
-Mobile engineering leader combining a decade of technical expertise with a background of scientific research in Psychology. I integrate large-scale architectural strategy with a deep understanding of human behavior to navigate conflict and foster psychological safety. With a focus on end-to-end ownership, from founding a product to managing other managers and staff engineers, I build resilient organizations and drive delivery excellence.
+Mobile engineering leader combining a decade of technical expertise with a background of scientific research in Psychology. I integrate large-scale architectural strategy with a deep understanding of human behavior to navigate shifting environments and foster psychological safety. With a focus on end-to-end ownership, from founding a product to managing other managers and staff engineers, I build resilient organizations and drive delivery excellence.
 
 # Core Strengths & Skills
 - **Organizational Leadership:** Leading other managers, cross-timezone collaboration across the US, Brazil, and India, hiring strategy, and performance calibration.
 - **People & Culture:** Driving engagement through change and ambiguity, conflict resolution, fostering autonomy, and coaching leaders on psychological safety and team health.
-- **Engineering Strategy:** Mobile platform architecture at scale, white-label automation, release engineering, and CI/CD process.
-- **Technical Expertise:** Swift 6, SwiftUI, UIKit, Mobile Architecture.
+- **Engineering Strategy:** Mobile platform architecture at scale, white-label automation, release engineering, CI/CD process, and AI adoption strategy.
+- **Technical Expertise:** Swift 6, Objective-C, SwiftUI, UIKit, Mobile Architecture.
 - **Managed Technologies & Tooling:** Kotlin, Java, .NET, Python, Bash, Azure DevOps, GitHub Actions.
 
 # Professional Experience
 
 ## Wex Inc. — Senior Engineering Manager (2025–Present)
-*Lead a strategic mobile division of over 30 engineers, managing 3 Engineering Managers, 4 Staff Engineers, and directing the work of partner teams.*
+*I lead a strategic mobile division of over 30 engineers, managing 3 Engineering Managers, 4 Staff Engineers, and directing the work of partner teams.*
 
 I oversee engineering strategy for a white-label ecosystem of more than 640 mobile apps across three product lines with deep customization. As a manager of managers, I drive organizational health and leadership development, unifying internal and partner teams into a cohesive culture while managing resource allocation and strategic alignment.
 
@@ -29,13 +29,14 @@ I oversee engineering strategy for a white-label ecosystem of more than 640 mobi
 - **Operational Excellence:** Led a CI/CD transformation that cut release cycles from months to under one hour, enabling prompt resolution of issues.
 - **Quality Engineering:** Reduced crash rates from over 4% to under 0.25% by enforcing rigorous architectural standards and automated testing frameworks.
 - **Global Team Integration:** Successfully integrated local and offshore partner teams across the United States, Brazil and India, aligning delivery cadence and quality standards in the organization.
-- **Organizational Growth:** Scaled the division into 4 cross-functional squads comprising 30 engineers, managing internal engineering managers, directing partner teams, and defining promotion paths for senior engineers.
+- **Organizational Growth:** Scaled the division into 4 cross-functional squads comprising 30 engineers, managing internal engineering managers, directing partner teams, and defining promotion paths for staff engineers.
+- **AI & Innovation:** Championed the adoption of AI agents by designing learning paths and allocating dedicated time, leading to multiple hackathon wins and the development of an AI-driven product for app review analysis.
 
 ## Wex Inc. — Tech Lead Manager (2024–2025)
 *Transitioned from individual contributor to management, scaling a single team into multiple specialized squads while driving modernization and delivery excellence.*
 
 ### Key Achievements
-- **Incident Management:** Reduced production incident response times from >3 days to <1 hour by leading improvements in telemetry, observability, and on-call practices.
+- **Incident Management:** Reduced production incident response times from over 3 days to under 1 hour by leading improvements in telemetry, observability, and on-call practices.
 - **Engineering Maturity:** Defined engineering maturity models and mentored new leads to support the expansion into specialized squads.
 - **Hiring & Process:** Redesigned interview loops and assessment metrics to improve hiring quality, clarifying metrics used in performance assessment.
 - **Strategic Alignment:** Collaborated with product leadership to align resource allocation with high-impact roadmap initiatives.
