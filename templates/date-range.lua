@@ -43,28 +43,40 @@ local function process_header(el)
   end
 
   -- Convert title content to LaTeX string manually
-  local title_parts = {}
-  for _, item in ipairs(title_content) do
-    if item.t == "Str" then
-      table.insert(title_parts, escape_latex(item.text))
-    elseif item.t == "Space" then
-      table.insert(title_parts, " ")
-    elseif item.t == "Span" and item.classes:includes("role-detail") then
-      -- Wrap role-detail in mbox to prevent line breaks
-      local detail_text = escape_latex(pandoc.utils.stringify(item.content))
-      table.insert(title_parts, "\\mbox{" .. detail_text .. "}")
-    elseif item.t == "Link" then
-      -- Handle links
-      local link_text = escape_latex(pandoc.utils.stringify(item.content))
-      local url = item.target
-      table.insert(title_parts, "\\href{" .. url .. "}{" .. link_text .. "}")
-    elseif item.t == "RawInline" then
-      -- Skip HTML raw inlines (like SVG icons) in LaTeX
-      if item.format ~= "html" then
-        table.insert(title_parts, item.text)
+  local function process_items(items)
+    local parts = {}
+    for _, item in ipairs(items) do
+      if item.t == "Str" then
+        table.insert(parts, escape_latex(item.text))
+      elseif item.t == "Space" then
+        table.insert(parts, " ")
+      elseif item.t == "Span" then
+        if item.classes:includes("role-detail") then
+          -- Wrap role-detail in mbox to prevent line breaks
+          local detail_text = escape_latex(pandoc.utils.stringify(item.content))
+          table.insert(parts, "\\mbox{" .. detail_text .. "}")
+        elseif item.classes:includes("title-text") or item.classes:includes("job-title") then
+          -- Unwrap title-text and job-title spans, process their content
+          local inner = process_items(item.content)
+          table.insert(parts, inner)
+        end
+      elseif item.t == "Link" then
+        -- Handle links
+        local link_text = escape_latex(pandoc.utils.stringify(item.content))
+        local url = item.target
+        table.insert(parts, "\\href{" .. url .. "}{" .. link_text .. "}")
+      elseif item.t == "RawInline" then
+        -- Skip HTML raw inlines (like SVG icons) in LaTeX
+        if item.format ~= "html" then
+          table.insert(parts, item.text)
+        end
       end
     end
+    return table.concat(parts, "")
   end
+
+  local title_parts = {}
+  table.insert(title_parts, process_items(title_content))
   local title_str = table.concat(title_parts, "")
 
   -- Normalize en dash with 0.5em spacing

@@ -19,7 +19,7 @@ Mobile engineering leader with over a decade of hands-on experience, ranging fro
 
 # Professional Experience
 
-## Wex Inc. – Senior Engineering Manager <span class="role-detail">(Software Development Management 3)</span> <span class="date-range">2025–Present</span>
+## <span class="job-title">Wex Inc. – Senior Engineering Manager <span class="role-detail">(Software Development Management 3)</span></span> <span class="date-range">2025–Present</span>
 *I oversee a strategic mobile division of over 30 engineers, leading 3 Engineering Managers, 4 Staff Engineers, and directing the work of partner teams.*
 
 I supervise engineering strategy for a white-label ecosystem of more than 640 mobile apps across three product lines with deep customization. As a leader of managers, I drive organizational health and talent development, unifying internal and partner teams into a cohesive culture while managing resource allocation and strategic alignment.
@@ -32,7 +32,7 @@ I supervise engineering strategy for a white-label ecosystem of more than 640 mo
 - **Organizational Growth:** Scaled the division into 4 cross-functional squads comprising 30 engineers, managing internal engineering managers, directing partner teams, and defining promotion paths for staff engineers.
 - **AI & Innovation:** Championed the adoption of AI agents by designing learning paths and allocating dedicated time, leading to multiple hackathon wins and the development of an AI-driven product for app review analysis.
 
-## Wex Inc. – Engineering Manager <span class="role-detail">(Software Development Management 2)</span> <span class="date-range">2024–2025</span>
+## <span class="job-title">Wex Inc. – Engineering Manager <span class="role-detail">(Software Development Management 2)</span></span> <span class="date-range">2024–2025</span>
 *Transitioned from individual contributor to management, scaling a single team into multiple specialized squads while driving modernization and delivery excellence.*
 
 ### Key Achievements
@@ -41,7 +41,7 @@ I supervise engineering strategy for a white-label ecosystem of more than 640 mo
 - **Hiring & Process:** Redesigned interview loops and assessment metrics to improve hiring quality, clarifying metrics used in performance assessment.
 - **Strategic Alignment:** Collaborated with product leadership to align resource allocation with high-impact roadmap initiatives.
 
-## Wex Inc. – Senior iOS Engineer <span class="date-range">2022–2024</span>
+## <span class="job-title">Wex Inc. – Senior iOS Engineer</span> <span class="date-range">2022–2024</span>
 *First Brazil-based engineer in the organization, responsible for establishing the local engineering culture and laying the groundwork for global hiring and codebase modernization.*
 
 ### Key Achievements
@@ -50,7 +50,7 @@ I supervise engineering strategy for a white-label ecosystem of more than 640 mo
 - **Code Quality:** Established coding standards and introduced automated tooling to enforce consistency across the codebase.
 - **Mentorship:** Facilitated the transition of other engineers from legacy codebases to modern patterns.
 
-## <a href="https://app.leio.co" target="_blank" rel="noopener" class="heading-link">Leio – Founder & Product Engineer <span class="date-range">2015–Present</span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a>
+## <span class="title-text"><a href="https://app.leio.co" target="_blank" rel="noopener" class="heading-link">Leio – Founder & Product Engineer <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a></span> <span class="date-range">2015–Present</span>
 
 *I own the end-to-end product lifecycle for Leio, a top-rated reading management app with a decade of continuous evolution.*
 
@@ -60,10 +60,10 @@ I supervise engineering strategy for a white-label ecosystem of more than 640 mo
 
 # Additional Experience
 
-## The School of Life – Psychotherapist and Lecturer <span class="date-range">2017–Present<br>(part-time)</span>
+## <span class="job-title">The School of Life – Psychotherapist and Lecturer</span> <span class="date-range">2017–Present <br>(part-time)</span>
 I use my expertise in human behavior to coach individuals and groups on emotional intelligence, communication, and interpersonal dynamics.
 
-## Faculdades Metropolitanas Unidas (FMU) – University Professor <span class="date-range">2019–2023<br>(part-time)</span>
+## <span class="job-title">Faculdades Metropolitanas Unidas (FMU) – University Professor</span> <span class="date-range">2019–2023 <br>(part-time)</span>
 I taught complex theoretical concepts and supervised the clinical practice of hundreds of students, honing skills in mentorship, clear communication, and guiding the professional development of others.
 
 # Education

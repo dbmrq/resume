@@ -125,32 +125,34 @@ h2 {
   letter-spacing: -0.01em;
   display: grid;
   grid-template-columns: 1fr auto;
-  gap: 2rem;
-  align-items: baseline;
+  gap: 3rem;
+  align-items: end;
 }
 
-h2 > :not(.date-range) {
+h2 > .title-text,
+h2 > .job-title {
   grid-column: 1;
 }
 
 h2 > .date-range {
   grid-column: 2;
   grid-row: 1;
+  text-align: right;
 }
 
 h3 { font-size: 1rem; font-weight: 600; margin: 1.25rem 0 0.5rem; }
 
 .date-range {
   font-weight: 400;
-  white-space: nowrap;
+  white-space: normal;
 }
 
 .date-range br {
-  display: none;
+  display: block;
 }
 
 .role-detail {
-  display: inline;
+  display: block;
 }
 
 .heading-link {
