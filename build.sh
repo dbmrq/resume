@@ -113,8 +113,7 @@ if [ -n "$WEBSITE_URL" ]; then
 fi
 
 if [ -n "$GITHUB_URL" ]; then
-  # Extract display name from GitHub URL (e.g., github.com/user/repo)
-  GITHUB_DISPLAY=$(echo "$GITHUB_URL" | sed 's|https://||')
+  GITHUB_DISPLAY="${GITHUB_URL#https://}"
   PANDOC_VARS="$PANDOC_VARS -V github:\"$GITHUB_URL\" -V github-display:\"$GITHUB_DISPLAY\""
 fi
 
@@ -123,7 +122,7 @@ eval pandoc cv-temp.md \
   --pdf-engine=lualatex \
   --template=build/template.tex \
   --lua-filter=build/date-range.lua \
-  $PANDOC_VARS
+  "$PANDOC_VARS"
 
 rm cv-temp.md
 echo "PDF generated: cv.pdf"
