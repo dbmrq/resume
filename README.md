@@ -1,34 +1,24 @@
 # CV
 
-My CV as code—a single Markdown source rendered to both a responsive web page and a print-ready PDF.
+A semantic CV generator that produces both a responsive website and a print-ready PDF from a single YAML source.
 
-**[View Live →](https://daniel.leio.co)**
+## Usage
 
-## Stack
+1. Fork this repo
+2. Edit `cv-data.yaml` with your information
+3. Push — GitHub Actions builds and deploys to GitHub Pages
 
-- **Source:** Markdown with YAML frontmatter
-- **PDF:** Pandoc + LuaLaTeX with a custom template
-- **Web:** Vanilla JavaScript that renders the same Markdown client-side
-- **CI/CD:** GitHub Actions builds and deploys to GitHub Pages on every push
-
-## Structure
-
-```
-├── cv.md                   # CV content (single source of truth)
-├── keywords.yaml           # ATS keywords injected at build time
-├── build.sh                # Build script for PDF and HTML
-├── templates/
-│   ├── template.tex        # LaTeX template for PDF
-│   └── index-template.html # HTML shell with contact info placeholders
-└── assets/
-    ├── style.css           # Web styles
-    └── qrcode/             # QR code for print version
-```
-
-## Build
-
+For local builds:
 ```bash
-./build.sh
+pip install -r requirements.txt  # or use a venv
+./build.sh                       # requires Pandoc, LuaLaTeX, Inter font
 ```
 
-Requires Pandoc, LuaLaTeX, and the Inter font. Contact info is injected from `contact-private.json` (local) or GitHub Secrets (CI).
+For private contact info, create `contact-private.json` (avoids bots):
+```json
+{"email": "you@example.com", "phone": "+1 555 123 4567", "whatsapp": "https://wa.me/..."}
+```
+
+## License
+
+MIT — use freely with attribution. Link back to this repo or credit the original author.

@@ -1,10 +1,15 @@
 # Build outputs
 index.html
 cv.pdf
+cv.md
 cv-temp.md
 
 # Private contact info (created from GitHub secrets in CI)
 contact-private.json
+
+# Python
+.venv/
+__pycache__/
 
 # LaTeX artifacts
 *.aux

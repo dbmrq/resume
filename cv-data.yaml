@@ -1,0 +1,167 @@
+# CV Data - Semantic structure for generating CV in multiple formats
+# Only include the links you want to show; icons appear automatically
+
+# === Personal Information ===
+name: Daniel Marques
+title: Senior Engineering Manager
+location: São Paulo / SP – Brazil (remote only)
+
+# === Contact (private - loaded from contact-private.json in CI) ===
+# These are placeholders; real values come from secrets
+contact:
+  email: true      # Will show email icon/link
+  phone: true      # Will show phone icon/link (via WhatsApp)
+
+# === Social Links ===
+# Only include the ones you want to display
+links:
+  linkedin: https://www.linkedin.com/in/danbmarques/
+  github: https://github.com/dbmrq/resume
+  appstore: https://app.leio.co
+
+# === Website ===
+# Used for QR code in PDF and footer references
+website:
+  url: https://daniel.leio.co
+  display: daniel.leio.co
+
+# === Profile Section ===
+profile: |
+  Mobile engineering leader with over a decade of hands-on experience, ranging from solo full-cycle development to architecting large-scale enterprise platforms. I merge technical expertise with a background in Psychology to build high-performing teams, leveraging a deep understanding of human behavior to foster psychological safety and navigate shifting environments. Whether founding consumer products or supervising other managers, I drive end-to-end ownership and delivery excellence.
+
+# === Skills Section ===
+skills:
+  - category: Organizational Leadership
+    items: Leading other managers, cross-timezone collaboration across the US, Brazil, and India, hiring strategy, and performance calibration.
+  - category: Engineering Strategy
+    items: Mobile platform architecture at scale, white-label automation, release engineering, CI/CD process, and AI adoption strategy.
+  - category: Technical Expertise
+    items: Swift 6, Objective-C, SwiftUI, UIKit, Mobile Architecture.
+  - category: Managed Technologies & Tooling
+    items: Kotlin, Java, .NET, Python, Bash, Azure DevOps, GitHub Actions.
+  - category: People & Culture
+    items: Driving engagement through change and ambiguity, conflict resolution, talent development, and coaching leaders on psychological safety and team health.
+
+# === Professional Experience ===
+experience:
+  - company: Wex Inc.
+    title: Senior Engineering Manager
+    role_level: Software Development Management 3
+    dates:
+      start: 2025
+      end: Present
+    summary: |
+      *I oversee a strategic mobile division of over 30 engineers, leading 3 Engineering Managers, 4 Staff Engineers, and directing the work of partner teams.*
+
+      I supervise engineering strategy for a white-label ecosystem of more than 640 mobile apps across three product lines with deep customization. As a leader of managers, I drive organizational health and talent development, unifying internal and partner teams into a cohesive culture while managing resource allocation and strategic alignment.
+    achievements:
+      - label: Scale & Automation
+        text: Architected the delivery strategy for the entire app portfolio via shared codebases and automated release workflows using Python and Bash, enabling simultaneous updates across hundreds of clients.
+      - label: Operational Excellence
+        text: Led a CI/CD transformation that cut release cycles from months to under one hour, enabling prompt resolution of issues.
+      - label: Quality Engineering
+        text: Reduced crash rates from over 4% to under 0.25% by enforcing rigorous architectural standards and automated testing frameworks.
+      - label: Global Team Integration
+        text: Successfully integrated local and offshore partner teams across the United States, Brazil and India, aligning delivery cadence and quality standards in the organization.
+      - label: Organizational Growth
+        text: Scaled the division into 4 cross-functional squads comprising 30 engineers, managing internal engineering managers, directing partner teams, and defining promotion paths for staff engineers.
+      - label: AI & Innovation
+        text: Championed the adoption of AI agents by designing learning paths and allocating dedicated time, leading to multiple hackathon wins and the development of an AI-driven product for app review analysis.
+
+  - company: Wex Inc.
+    title: Engineering Manager
+    role_level: Software Development Management 2
+    dates:
+      start: 2024
+      end: 2025
+    summary: |
+      *Transitioned from individual contributor to management, scaling a single team into multiple specialized squads while driving modernization and delivery excellence.*
+    achievements:
+      - label: Incident Management
+        text: Reduced production incident response times from over 3 days to under 1 hour by leading improvements in telemetry, observability, and on-call practices.
+      - label: Engineering Maturity
+        text: Defined engineering maturity models and mentored new leads to support the expansion into specialized squads.
+      - label: Hiring & Process
+        text: Redesigned interview loops and assessment metrics to improve hiring quality, clarifying metrics used in performance assessment.
+      - label: Strategic Alignment
+        text: Collaborated with product leadership to align resource allocation with high-impact roadmap initiatives.
+
+  - company: Wex Inc.
+    title: Senior iOS Engineer
+    dates:
+      start: 2022
+      end: 2024
+    summary: |
+      *First Brazil-based engineer in the organization, responsible for establishing the local engineering culture and laying the groundwork for global hiring and codebase modernization.*
+    achievements:
+      - label: Onboarding Standards
+        text: Created the onboarding frameworks that became the standard for future global hires, facilitating rapid team growth.
+      - label: Modernization
+        text: Drove the migration of legacy Objective‑C and Java to Swift and Kotlin and initiated the move toward a modular architecture.
+      - label: Code Quality
+        text: Established coding standards and introduced automated tooling to enforce consistency across the codebase.
+      - label: Mentorship
+        text: Facilitated the transition of other engineers from legacy codebases to modern patterns.
+
+  - company: Leio
+    title: Founder & Product Engineer
+    url: https://app.leio.co
+    dates:
+      start: 2015
+      end: Present
+    summary: |
+      *I own the end-to-end product lifecycle for Leio, a top-rated reading management app with a decade of continuous evolution.*
+    achievements:
+      - label: Technical Evolution
+        text: Maintained a production codebase for over a decade, evolving it from Objective-C to Swift 6. Adopted modern standards including SwiftUI, strict concurrency, and a modular architecture to ensure long-term maintainability.
+      - label: Product Strategy
+        text: Bootstrapped a consumer product to consistent revenue and top-tier ratings, managing the full lifecycle from design and development to legal compliance and customer support.
+
+# === Additional Experience ===
+additional_experience:
+  - company: The School of Life
+    title: Psychotherapist and Lecturer
+    dates:
+      start: 2017
+      end: Present
+    part_time: true
+    description: |
+      I use my expertise in human behavior to coach individuals and groups on emotional intelligence, communication, and interpersonal dynamics.
+
+  - company: Faculdades Metropolitanas Unidas (FMU)
+    title: University Professor
+    dates:
+      start: 2019
+      end: 2023
+    part_time: true
+    description: |
+      I taught complex theoretical concepts and supervised the clinical practice of hundreds of students, honing skills in mentorship, clear communication, and guiding the professional development of others.
+
+# === Education ===
+education:
+  - degree: PhD
+    field: Philosophy
+    institution: University of São Paulo (USP)
+  - degree: MA
+    field: Philosophy
+    institution: University of São Paulo (USP)
+  - degree: BA
+    field: Philosophy
+    institution: University of São Paulo (USP)
+  - degree: BA
+    field: Psychology
+    institution: University of São Paulo (USP)
+  - degree: Specialist
+    field: Innovative Solutions for Long Distance Education
+    institution: UNIVESP
+  - degree: C2 Proficiency (CPE)
+    field: null
+    institution: Cambridge English
+
+# === Languages ===
+languages:
+  - language: Portuguese
+    level: native
+  - language: English
+    level: fluent / C2
+

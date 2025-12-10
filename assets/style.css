@@ -171,6 +171,10 @@ h3 { font-size: 1rem; font-weight: 600; margin: 1.25rem 0 0.5rem; }
   vertical-align: middle;
 }
 
+h2 .heading-link svg {
+  margin-left: 0.2rem;
+}
+
 .heading-link:hover svg {
   color: var(--accent);
 }
@@ -253,5 +257,21 @@ a:hover { color: #2d4373; }
   .name { font-size: 1.75rem; }
   .title { font-size: 1rem; }
   h1 { font-size: 1.5rem; }
-  h2 { font-size: 1.125rem; }
+  h2 {
+    font-size: 1.125rem;
+    display: block;
+  }
+  h2 > .date-range {
+    display: inline;
+    text-align: left;
+  }
+  h2 > .date-range::before {
+    content: "\2003";  /* em space */
+  }
+  h2 > .date-range br {
+    display: none;
+  }
+  .role-detail {
+    display: inline;
+  }
 }

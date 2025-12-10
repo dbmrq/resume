@@ -110,16 +110,22 @@ $body$
 \noindent\rule{\textwidth}{0.4pt}
 \vspace{0.1em}
 
+$if(website)$
 \noindent\begin{minipage}[c]{\dimexpr\textwidth-2cm\relax}
 \fontsize{8pt}{10pt}\selectfont
 This CV was built using Pandoc, Lua\LaTeX, and GitHub Actions.
-The source is available at \href{https://github.com/dbmrq/resume}{github.com/dbmrq/resume}.
+$if(github)$The source is available at \href{$github$}{$github-display$}.$endif$
 This version is optimized for print.
-For an enhanced digital experience, visit \href{https://daniel.leio.co}{daniel.leio.co} or scan the QR code.
+For an enhanced digital experience, visit \href{$website$}{$website-display$} or scan the QR code.
 \end{minipage}%
 \hfill%
 \begin{minipage}[c]{1.1cm}
-\includegraphics[width=1.1cm]{assets/qrcode/qrcode_leio.pdf}
+\includegraphics[width=1.1cm]{assets/qrcode/qrcode.pdf}
 \end{minipage}
+$else$
+\noindent\fontsize{8pt}{10pt}\selectfont
+This CV was built using Pandoc, Lua\LaTeX, and GitHub Actions.
+$if(github)$The source is available at \href{$github$}{$github-display$}.$endif$
+$endif$
 
 \end{document}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{CV_NAME}} — CV</title>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <!-- Keywords for ATS and search optimization (injected from keywords.yaml at build time) -->
+  <div id="keywords" aria-hidden="true" style="position:absolute;left:-9999px;top:-9999px;width:1px;height:1px;overflow:hidden;">{{KEYWORDS}}</div>
+  <div class="page-wrapper">
+  <div class="container">
+    <header class="header">
+      <nav class="header-icons">
+        {{HEADER_ICONS}}
+      </nav>
+    </header>
+    <main id="content"></main>
+  </div>
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p>
+        This CV was built using Pandoc, JavaScript, and GitHub Actions.
+        {{GITHUB_FOOTER}}
+        This version is optimized for screens. For a better print experience,
+        <a href="cv.pdf" download>download the PDF</a>.
+      </p>
+    </div>
+  </footer>
+  </div>
+  <script>
+    // Print the PDF version
+    function printPdf() {
+      const pdfUrl = 'cv.pdf';
+      const iframe = document.createElement('iframe');
+      iframe.style.display = 'none';
+      iframe.src = pdfUrl;
+      document.body.appendChild(iframe);
+      iframe.onload = function() {
+        setTimeout(function() {
+          iframe.contentWindow.print();
+        }, 500);
+      };
+    }
+
+    // Obfuscated contact info (char codes) - defeats text scrapers and regex harvesters
+    const _dc = function(a) { return a.map(function(c) { return String.fromCharCode(c); }).join(''); };
+    const _ct = {
+      e: {{EMAIL_CODES}},
+      p: {{PHONE_CODES}},
+      w: {{WHATSAPP_CODES}}
+    };
+
+    fetch('cv.md')
+      .then(response => response.text())
+      .then(text => {
+        // Parse YAML frontmatter
+        const fmMatch = text.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
+        if (!fmMatch) return;
+
+        const frontmatter = fmMatch[1];
+        const body = fmMatch[2];
+
+        // Simple YAML parsing for our structure
+        const name = frontmatter.match(/^name:\s*(.+)$/m)?.[1] || '';
+        const title = frontmatter.match(/^title:\s*(.+)$/m)?.[1] || '';
+        const contactMatch = frontmatter.match(/contact:\n((?:\s+-\s*.+\n?)+)/);
+        let contactLines = contactMatch
+          ? contactMatch[1].match(/-\s*"?(.+?)"?\s*$/gm)
+              .map(l => l.replace(/^-\s*"?|"?\s*$/g, ''))
+              .filter(l => !l.includes('{{'))  // Skip placeholder lines
+              .map(l => marked.parseInline(l))
+              .join('<br>')
+          : '';
+
+        // Inject obfuscated contact info (decoded at runtime)
+        const email = _dc(_ct.e);
+        const phone = _dc(_ct.p);
+        const waUrl = _dc(_ct.w);
+        const obfuscatedContact = '<a href="mai' + 'lto:' + email + '">' + email + '</a><br>' +
+                                  '<a href="' + waUrl + '">' + phone + '</a>';
+
+        // Set header icon hrefs (if they exist)
+        const emailEl = document.getElementById('header-email');
+        const whatsappEl = document.getElementById('header-whatsapp');
+        if (emailEl) emailEl.href = 'mai' + 'lto:' + email;
+        if (whatsappEl) whatsappEl.href = waUrl;
+        // Insert after location line
+        const lines = contactLines.split('<br>');
+        lines.splice(1, 0, obfuscatedContact);
+        contactLines = lines.join('<br>');
+
+        document.getElementById('content').innerHTML = `
+          <div class="hero">
+            <h1 class="name">${name}</h1>
+            <p class="title">${title}</p>
+            <div class="contact">${contactLines}</div>
+          </div>
+          ${marked.parse(body)}
+        `;
+      });
+  </script>
+</body>
+</html>
