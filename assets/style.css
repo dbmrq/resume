@@ -33,15 +33,16 @@ body {
 
 .header {
   display: flex;
-  justify-content: flex-end;
+  justify-content: stretch;
   margin-bottom: 3rem;
 }
 
 .header-icons {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: space-between;
   gap: 0.5rem;
+  width: 100%;
 }
 
 .header-icon {
