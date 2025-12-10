@@ -123,18 +123,26 @@ h2 {
   font-weight: 600;
   margin: 2rem 0 0.75rem;
   letter-spacing: -0.01em;
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
+  display: grid;
+  grid-template-columns: 1fr auto;
   gap: 2rem;
-  flex-wrap: nowrap;
+  align-items: baseline;
 }
+
+h2 > :not(.date-range) {
+  grid-column: 1;
+}
+
+h2 > .date-range {
+  grid-column: 2;
+  grid-row: 1;
+}
+
 h3 { font-size: 1rem; font-weight: 600; margin: 1.25rem 0 0.5rem; }
 
 .date-range {
   font-weight: 400;
   white-space: nowrap;
-  flex-shrink: 0;
 }
 
 .date-range br {
@@ -142,7 +150,7 @@ h3 { font-size: 1rem; font-weight: 600; margin: 1.25rem 0 0.5rem; }
 }
 
 .role-detail {
-  white-space: nowrap;
+  display: inline;
 }
 
 .heading-link {
