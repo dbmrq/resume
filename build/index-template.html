@@ -4,16 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{CV_NAME}} — CV</title>
+  <style>
+    /* Critical CSS to prevent FOUC on header icons */
+    .container{max-width:680px;margin:0 auto;padding:3rem 1.5rem 5rem}
+    .header{display:flex;margin-bottom:3rem}
+    .header-icons{display:flex;justify-content:flex-start;gap:0.5rem;width:100%}
+    .header-icon{display:flex;align-items:center;justify-content:center;width:2.5rem;height:2.5rem;flex-shrink:0}
+  </style>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
-  <style>
-    /* Critical CSS to prevent FOUC on header icons */
-    .header-icons{display:flex;justify-content:flex-start;gap:0.5rem}
-    .header-icon{display:flex;width:2.5rem;height:2.5rem;flex-shrink:0}
-  </style>
 </head>
 <body>
   <!-- Keywords for ATS and search optimization (injected from keywords.yaml at build time) -->
