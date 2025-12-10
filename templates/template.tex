@@ -58,20 +58,25 @@ $endif$
   urlcolor=black,
 }
 
+
+
 % Left-aligned text (ragged right)
 \raggedright
 
 % Section styling - remove numbering, add spacing
 \setcounter{secnumdepth}{0}
+% Prevent page breaks after section headings
+\usepackage{etoolbox}
+\patchcmd{\subsection}{\sectionbreak}{\filbreak}{}{}
 % H1 - Major sections (Profile, Professional Experience, etc.)
 \titleformat{\section}{\LARGE\sfsemibold}{}{0em}{}
-\titlespacing*{\section}{0pt}{2.2em}{0.8em}
+\titlespacing*{\section}{0pt}{3em}{1em}
 % H2 - Job titles
-\titleformat{\subsection}{\large\sfsemibold}{}{0em}{}
-\titlespacing*{\subsection}{0pt}{1.6em}{0.4em}
+\titleformat{\subsection}{\filbreak\large\sfsemibold}{}{0em}{}
+\titlespacing*{\subsection}{0pt}{2.2em}{0.6em}
 % H3 - Sub-labels (Achievements)
 \titleformat{\subsubsection}{\normalsize\sfsemibold}{}{0em}{}
-\titlespacing*{\subsubsection}{0pt}{1em}{0.2em}
+\titlespacing*{\subsubsection}{0pt}{1.4em}{0.4em}
 
 % Lists - hanging bullets
 \usepackage{enumitem}

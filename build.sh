@@ -62,6 +62,7 @@ pandoc cv-temp.md \
   -o cv.pdf \
   --pdf-engine=lualatex \
   --template=templates/template.tex \
+  --lua-filter=templates/date-range.lua \
   -V geometry:"top=4cm, bottom=2.5cm, left=4cm, right=4cm" \
   -V interfont:"$INTER_FONT"
 

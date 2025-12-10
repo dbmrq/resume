@@ -65,17 +65,28 @@ body {
   flex-shrink: 0;
 }
 
-/* Shrink icons on very small screens to fit */
+/* Reduce gap on smaller screens before shrinking icons */
+@media (max-width: 500px) {
+  .header-icons {
+    gap: 0.25rem;
+  }
+}
+
+/* Allow wrapping and shrink icons slightly on very small screens */
 @media (max-width: 400px) {
+  .header-icons {
+    flex-wrap: wrap;
+    gap: 0.25rem;
+  }
+
   .header-icon {
-    width: 2rem;
-    height: 2rem;
-    flex-shrink: 1;
+    width: 2.25rem;
+    height: 2.25rem;
   }
 
   .header-icon svg {
-    width: 16px;
-    height: 16px;
+    width: 18px;
+    height: 18px;
   }
 }
 
@@ -107,8 +118,27 @@ body {
 }
 
 h1 { font-size: 1.75rem; font-weight: 700; margin: 2.5rem 0 1rem; letter-spacing: -0.02em; }
-h2 { font-size: 1.25rem; font-weight: 600; margin: 2rem 0 0.75rem; letter-spacing: -0.01em; }
+h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 2rem 0 0.75rem;
+  letter-spacing: -0.01em;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 2rem;
+}
 h3 { font-size: 1rem; font-weight: 600; margin: 1.25rem 0 0.5rem; }
+
+.date-range {
+  font-weight: 400;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.role-detail {
+  white-space: nowrap;
+}
 
 .heading-link {
   color: inherit;
