@@ -9,6 +9,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
+  <style>
+    /* Critical CSS to prevent FOUC on header icons */
+    .header-icons{display:flex;justify-content:flex-start;gap:0.5rem}
+    .header-icon{display:flex;width:2.5rem;height:2.5rem;flex-shrink:0}
+  </style>
 </head>
 <body>
   <!-- Keywords for ATS and search optimization (injected from keywords.yaml at build time) -->
@@ -16,7 +21,7 @@
   <div class="page-wrapper">
   <div class="container">
     <header class="header">
-      <nav class="header-icons" style="display:flex;justify-content:flex-start;gap:0.5rem;">
+      <nav class="header-icons">
         {{HEADER_ICONS}}
       </nav>
     </header>
