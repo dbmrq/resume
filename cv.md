@@ -15,7 +15,7 @@ Mobile engineering leader with over a decade of hands-on experience, ranging fro
 - **Engineering Strategy:** Mobile platform architecture at scale, white-label automation, release engineering, CI/CD process, and AI adoption strategy.
 - **Technical Expertise:** Swift 6, Objective-C, SwiftUI, UIKit, Mobile Architecture.
 - **Managed Technologies & Tooling:** Kotlin, Java, .NET, Python, Bash, Azure DevOps, GitHub Actions.
-- **People & Culture:** Driving engagement through change and ambiguity, conflict resolution, fostering autonomy, and coaching leaders on psychological safety and team health.
+- **People & Culture:** Driving engagement through change and ambiguity, conflict resolution, talent development, and coaching leaders on psychological safety and team health.
 
 # Professional Experience
 
