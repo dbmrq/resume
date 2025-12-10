@@ -45,13 +45,6 @@ body {
   width: 100%;
 }
 
-/* Use space-between only when container is narrow enough (7 icons * 2.5rem + reasonable gaps) */
-@media (max-width: 680px) {
-  .header-icons {
-    justify-content: space-between;
-  }
-}
-
 .header-icon {
   display: flex;
   align-items: center;
@@ -65,20 +58,23 @@ body {
   flex-shrink: 0;
 }
 
-/* Reduce gap on smaller screens before shrinking icons */
-@media (max-width: 500px) {
+/* Reduce gap first on smaller screens */
+@media (max-width: 400px) {
   .header-icons {
     gap: 0.25rem;
   }
 }
 
-/* Allow wrapping and shrink icons slightly on very small screens */
-@media (max-width: 400px) {
+/* Allow wrapping into two lines before shrinking icons */
+@media (max-width: 340px) {
   .header-icons {
     flex-wrap: wrap;
-    gap: 0.25rem;
+    justify-content: flex-start;
   }
+}
 
+/* Only shrink icons on very small screens as last resort */
+@media (max-width: 280px) {
   .header-icon {
     width: 2.25rem;
     height: 2.25rem;
