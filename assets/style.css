@@ -58,23 +58,22 @@ body {
   flex-shrink: 0;
 }
 
-/* Reduce gap first on smaller screens */
-@media (max-width: 400px) {
+/* Mobile: evenly distribute icons */
+@media (max-width: 600px) {
   .header-icons {
-    gap: 0.25rem;
+    justify-content: space-between;
   }
 }
 
-/* Allow wrapping into two lines before shrinking icons */
-@media (max-width: 340px) {
+/* Reduce gap first on smaller screens */
+@media (max-width: 400px) {
   .header-icons {
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    gap: 0.125rem;
   }
 }
 
 /* Only shrink icons on very small screens as last resort */
-@media (max-width: 280px) {
+@media (max-width: 300px) {
   .header-icon {
     width: 2.25rem;
     height: 2.25rem;
@@ -262,7 +261,7 @@ a:hover { color: #2d4373; }
     text-align: left;
   }
   h2 > .date-range::before {
-    content: "\2003";  /* em space */
+    content: " ";  /* regular space - prevents indented look when wrapping */
   }
   h2 > .date-range br {
     display: none;
