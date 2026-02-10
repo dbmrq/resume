@@ -11,26 +11,26 @@ contact:
 Mobile engineering leader with over a decade of hands-on experience, ranging from solo full-cycle development to architecting large-scale enterprise platforms. I merge technical expertise with a background in Psychology to build high-performing teams, leveraging a deep understanding of human behavior to foster psychological safety and navigate shifting environments. Whether founding consumer products or supervising other managers, I drive end-to-end ownership and delivery excellence.
 
 # Core Strengths & Skills
-- **Organizational Leadership:** Leading other managers, cross-timezone collaboration across the US, Brazil, and India, hiring strategy, and performance calibration.
+- **Organizational Leadership:** Leading other managers, cross-timezone collaboration across the US, Brazil, Europe and India, hiring strategy, and performance calibration.
 - **Engineering Strategy:** Mobile platform architecture at scale, white-label automation, release engineering, CI/CD process, and AI adoption strategy.
-- **Technical Expertise:** Swift 6, Objective-C, SwiftUI, UIKit, Mobile Architecture.
+- **Technical Expertise:** Swift 6, Objective-C, SwiftUI, UIKit, Mobile Architecture, advanced AI tooling.
 - **Managed Technologies & Tooling:** Kotlin, Java, .NET, Python, Bash, Azure DevOps, GitHub Actions.
 - **People & Culture:** Driving engagement through change and ambiguity, conflict resolution, talent development, and coaching leaders on psychological safety and team health.
 
 # Professional Experience
 
 ## <span class="job-title">Wex Inc. – Senior Engineering Manager <span class="role-detail">(Software Development Management 3)</span></span> <span class="date-range">2025–Present</span>
-*I oversee a strategic mobile division of over 30 engineers, leading 3 Engineering Managers, 4 Staff Engineers, and directing the work of partner teams.*
+*I oversee a strategic mobile division that includes internal teams and outsourcing partners, including over 20 engineers and multiple Engineering Managers across the United States, Brazil, Europe and India.*
 
 I supervise engineering strategy for a white-label ecosystem of more than 640 mobile apps across three product lines with deep customization. As a leader of managers, I drive organizational health and talent development, unifying internal and partner teams into a cohesive culture while managing resource allocation and strategic alignment.
 
 ### Key Achievements
+- **AI & Innovation:** Leveraged AI tooling and championed its adoption enabling the delivery of full mobile applications in under two months, using strategies such as spec driven development and multi-agent automation (e.g., Ralph loop, parallel sub-agents, agent roles, evolutionary AI approaches).
 - **Scale & Automation:** Architected the delivery strategy for the entire app portfolio via shared codebases and automated release workflows using Python and Bash, enabling simultaneous updates across hundreds of clients.
 - **Operational Excellence:** Led a CI/CD transformation that cut release cycles from months to under one hour, enabling prompt resolution of issues.
 - **Quality Engineering:** Reduced crash rates from over 4% to under 0.25% by enforcing rigorous architectural standards and automated testing frameworks.
 - **Global Team Integration:** Successfully integrated local and offshore partner teams across the United States, Brazil and India, aligning delivery cadence and quality standards in the organization.
 - **Organizational Growth:** Scaled the division into 4 cross-functional squads comprising 30 engineers, managing internal engineering managers, directing partner teams, and defining promotion paths for staff engineers.
-- **AI & Innovation:** Championed the adoption of AI agents by designing learning paths and allocating dedicated time, leading to multiple hackathon wins and the development of an AI-driven product for app review analysis.
 
 ## <span class="job-title">Wex Inc. – Engineering Manager <span class="role-detail">(Software Development Management 2)</span></span> <span class="date-range">2024–2025</span>
 *Transitioned from individual contributor to management, scaling a single team into multiple specialized squads while driving modernization and delivery excellence.*
