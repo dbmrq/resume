@@ -28,13 +28,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install dependencies
+      - name: Install system dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends \
             pandoc texlive-luatex texlive-latex-extra \
             texlive-fonts-recommended texlive-fonts-extra \
             jq
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
 
       - name: Install Inter variable font
         run: |

@@ -32,11 +32,11 @@ profile: |
 # === Skills Section ===
 skills:
   - category: Organizational Leadership
-    items: Leading other managers, cross-timezone collaboration across the US, Brazil, and India, hiring strategy, and performance calibration.
+    items: Leading other managers, cross-timezone collaboration across the US, Brazil, Europe and India, hiring strategy, and performance calibration.
   - category: Engineering Strategy
     items: Mobile platform architecture at scale, white-label automation, release engineering, CI/CD process, and AI adoption strategy.
   - category: Technical Expertise
-    items: Swift 6, Objective-C, SwiftUI, UIKit, Mobile Architecture.
+    items: Swift 6, Objective-C, SwiftUI, UIKit, Mobile Architecture, advanced AI tooling.
   - category: Managed Technologies & Tooling
     items: Kotlin, Java, .NET, Python, Bash, Azure DevOps, GitHub Actions.
   - category: People & Culture
@@ -51,10 +51,12 @@ experience:
       start: 2025
       end: Present
     summary: |
-      *I oversee a strategic mobile division of over 30 engineers, leading 3 Engineering Managers, 4 Staff Engineers, and directing the work of partner teams.*
+      *I oversee a strategic mobile division that includes internal teams and outsourcing partners, including over 20 engineers and multiple Engineering Managers across the United States, Brazil, Europe and India.*
 
       I supervise engineering strategy for a white-label ecosystem of more than 640 mobile apps across three product lines with deep customization. As a leader of managers, I drive organizational health and talent development, unifying internal and partner teams into a cohesive culture while managing resource allocation and strategic alignment.
     achievements:
+      - label: AI & Innovation
+        text: Leveraged AI tooling and championed its adoption enabling the delivery of full mobile applications in under two months, using strategies such as spec driven development and multi-agent automation (e.g., Ralph loop, parallel sub-agents, agent roles, evolutionary AI approaches).
       - label: Scale & Automation
         text: Architected the delivery strategy for the entire app portfolio via shared codebases and automated release workflows using Python and Bash, enabling simultaneous updates across hundreds of clients.
       - label: Operational Excellence
@@ -65,8 +67,6 @@ experience:
         text: Successfully integrated local and offshore partner teams across the United States, Brazil and India, aligning delivery cadence and quality standards in the organization.
       - label: Organizational Growth
         text: Scaled the division into 4 cross-functional squads comprising 30 engineers, managing internal engineering managers, directing partner teams, and defining promotion paths for staff engineers.
-      - label: AI & Innovation
-        text: Championed the adoption of AI agents by designing learning paths and allocating dedicated time, leading to multiple hackathon wins and the development of an AI-driven product for app review analysis.
 
   - company: Wex Inc.
     title: Engineering Manager
